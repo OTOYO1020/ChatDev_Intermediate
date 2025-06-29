@@ -1,0 +1,33 @@
+Task:
+Read integers N, M, and K from standard input. Initialize a variable 'mod = 10^9 + 7' to handle the modulo operation. Calculate the total number of arrangements of N white balls and M black balls without any restrictions using the formula: 'total_arrangements = factorial(N + M) / (factorial(N) * factorial(M))'. Create a function 'count_valid_arrangements(N, M, K)' to count the valid arrangements that satisfy the condition 'w_i ≤ b_i + K' for all 'i'. Inside 'count_valid_arrangements', initialize a variable 'valid_count = 0'. Use dynamic programming or combinatorial methods to iterate through possible distributions of balls while ensuring the condition 'w_i ≤ b_i + K' is met. Update 'valid_count' with the number of valid arrangements found, ensuring to apply modulo 'mod' at each step to prevent overflow. Return the 'valid_count' from 'count_valid_arrangements'. Print the final count of valid arrangements modulo 'mod'.\n\nThis breakdown ensures that the problem is tackled step-by-step, focusing on reading inputs, calculating arrangements, and ensuring the conditions are met through a dedicated function.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

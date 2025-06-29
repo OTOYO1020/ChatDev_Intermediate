@@ -1,0 +1,33 @@
+Task:
+Input Handling: Read integer 'N' and array 'W' of size 'N' from standard input. Ensure that 'W' contains the masses of the weights indexed from 1 to 'N'. Initialize Variables: Create a variable 'min_difference' and set it to a large number (e.g., infinity) to keep track of the minimum absolute difference between 'S_1' and 'S_2'. Iterate Over Possible Divisions: Loop over each possible division point 'T' from 1 to 'N-1'. Calculate Sums for Each Division: For each 'T', calculate 'S_1' as the sum of the masses of weights with indices from 1 to 'T'. / Calculate 'S_2' as the sum of the masses of weights with indices from 'T+1' to 'N'. Compute Absolute Difference: For each division, compute the absolute difference between 'S_1' and 'S_2'. Update Minimum Difference: If the computed absolute difference is less than 'min_difference', update 'min_difference' with this new value. Output Result: After evaluating all possible divisions, print the 'min_difference', which represents the minimum possible absolute difference between 'S_1' and 'S_2'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

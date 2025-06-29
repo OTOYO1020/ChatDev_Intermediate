@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Sales Pipeline Tracker - Conversion Rates</title>
+</head>
+<body>
+    <h1>Sales Pipeline Tracker - Conversion Rates</h1>
+    <table>
+        <tr>
+            <th>Stage</th>
+            <th>Conversion Rate</th>
+        </tr>
+        <tbody th:each="conversionRate : ${conversionRates.entrySet()}">
+            <tr>
+                <td th:text="${conversionRate.key}"></td>
+                <td th:text="${conversionRate.value}"></td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>

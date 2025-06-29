@@ -1,0 +1,33 @@
+Task:
+Define the function 'count_valid_flips(N: int, A: List[int], B: List[int]) -> int' to handle the main logic of the problem. Parse the input to extract the integer 'N' and the lists 'A' and 'B' from the input format. Initialize a variable 'mod' with the value '998244353' to handle the modulo operation. Iterate through all possible subsets of cards using a bitmask approach to represent which cards are flipped. For each subset, check if the face-up values of adjacent cards are different by comparing values in 'A' and 'B'. Count the valid configurations where the face-up values of adjacent cards are different. Ensure to apply the modulo operation to the count of valid configurations to avoid overflow. Return the final count of valid configurations from the function 'count_valid_flips'. Implement error handling for edge cases, such as when 'N' is at its minimum or maximum limits. Output the result in the specified format after calling the function.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

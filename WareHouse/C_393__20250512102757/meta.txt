@@ -1,0 +1,33 @@
+Task:
+Define a function 'min_edges_to_remove(N: int, M: int, edges: List[Tuple[int, int]]) -> int' to encapsulate the logic for calculating the minimum number of edges to remove. Parse the input to extract the number of vertices 'N' and edges 'M', and the list of edges 'edges' as tuples of integers '(u_i, v_i)'. Initialize a data structure (e.g., a dictionary or a set) to track the unique edges and self-loops. Iterate through the list of edges and for each edge '(u_i, v_i)', check if it creates a self-loop or is a multi-edge. If an edge is a self-loop (i.e., 'u_i == v_i'), increment a counter for self-loops. If an edge '(u_i, v_i)' is already in the data structure, increment a counter for multi-edges. After processing all edges, calculate the total number of edges to remove as the sum of self-loops and the count of multi-edges. Return the total count of edges to remove from the function 'min_edges_to_remove'. Ensure that the function handles edge cases, such as when 'M' is zero or when all edges are valid. Output the result of the function in the format of a single integer representing the minimum number of edges to remove.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+hybrid approach
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

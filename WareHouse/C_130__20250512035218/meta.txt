@@ -1,0 +1,33 @@
+Task:
+Define the function signature as 'def max_area_cut(W: int, H: int, x: int, y: int) -> Tuple[int, bool]:' to handle the input parameters. Implement input handling to read integers W, H, x, and y from standard input. Calculate the total area of the rectangle using the formula 'total_area = W * H'. Determine the area of the two parts after cutting the rectangle with a line through point (x, y). Identify the maximum possible area of the smaller part using the formula 'max_area = total_area // 2'. Check if the maximum area can be achieved by multiple cutting lines, and set a boolean flag accordingly. Return the maximum area and the boolean flag as a tuple from the function. Implement output handling to print the results in the format 'max_area is X and multiple ways: Y'. Ensure that all calculations handle the constraints of the problem, particularly the large values of W and H. Test the function with various inputs to validate correctness and performance.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

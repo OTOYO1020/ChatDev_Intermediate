@@ -1,0 +1,5 @@
+
+Replace `library.groupId`, `library.artifactId`, and `library.version` with the actual values for the dependencies you need.
+
+To build and manage the project dependencies using Maven, you can run the following command in the project directory:
+

@@ -1,0 +1,3 @@
+
+If you anticipate needing additional functionality or compatibility with other libraries in the future, you may consider including `numpy` as well. In that case, the `requirements.txt` file would look like this:
+

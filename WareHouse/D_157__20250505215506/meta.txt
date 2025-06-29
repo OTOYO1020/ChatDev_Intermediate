@@ -1,0 +1,33 @@
+Task:
+Read integers N, M, and K from standard input, where N is the number of users, M is the number of friendships, and K is the number of blockships. Initialize an adjacency list 'friendships' to store friendships and a set 'blockships' to store blockships. For each friendship (A_i, B_i) from the input, add an entry in 'friendships' for both A_i and B_i. For each blockship (C_i, D_i) from the input, add an entry in 'blockships' for the pair (C_i, D_i) and (D_i, C_i). For each user 'b' from 1 to N, initialize a counter 'friend_candidate_count' to zero. For each user 'a' from 1 to N:\n   - Check if 'a' is not equal to 'b', and if there is no friendship between 'a' and 'b', and if there is no blockship between 'a' and 'b'.\n   - If the above conditions are satisfied, perform a BFS or DFS to check if there exists a path from 'a' to 'b' through friendships. If a valid path exists, increment 'friend_candidate_count' for user 'b'. Store the count of friend candidates for each user in a list 'friend_candidate_counts'. After processing all users, print the 'friend_candidate_counts' list. Ensure that the output format is a space-separated list of integers representing the number of friend candidates for each user from 1 to N.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

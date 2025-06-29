@@ -1,0 +1,8 @@
+
+In the above example, I have added two dependencies: `javax.swing-api` and `commons-lang3`. You can add more dependencies as needed for your project.
+
+To build and manage your project dependencies using Maven, you can run commands like `mvn clean install` or `mvn dependency:tree`.
+
+If you prefer to use Gradle as your build tool, you can create a build.gradle file and specify the dependencies in a similar way.
+
+build.gradle

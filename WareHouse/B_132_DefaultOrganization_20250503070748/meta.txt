@@ -1,0 +1,33 @@
+Task:
+Read the integer \( n \) from standard input, ensuring that \( 3 \leq n \leq 20 \). Read the permutation \( p \) of length \( n \) from standard input, ensuring it contains integers from \( 1 \) to \( n \) without duplicates. Initialize a counter variable 'count' to zero to track the number of valid elements \( p_i \). Iterate through the indices \( i \) from \( 2 \) to \( n-1 \) (inclusive) to evaluate each \( p_i \). For each \( p_i \), create a list 'neighbors' containing \( p_{i-1} \), \( p_i \), and \( p_{i+1} \). Sort the 'neighbors' list to determine the second smallest element. Check if \( p_i \) is equal to the second smallest element in the 'neighbors' list:\n   - If true, increment the 'count' by 1. After completing the loop, print the final value of 'count' as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

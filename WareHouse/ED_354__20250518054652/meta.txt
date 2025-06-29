@@ -1,0 +1,33 @@
+Task:
+Define a function 'determine_winner(N: int, A: List[int], B: List[int]) -> str' to encapsulate the game logic. Parse the input to extract the integer N and the lists A and B, ensuring they meet the constraints. Implement a method to check for pairs of cards that can be removed based on the front or back values. Create a recursive function or use dynamic programming to simulate the game, tracking the state of the cards after each move. Implement logic to determine the current player's turn and check if they can make a valid move. Keep track of the number of remaining cards and the current player to decide the winner when no moves are possible. Optimize the solution to handle the maximum constraints efficiently, considering the small value of N. Test the function with various scenarios to ensure it correctly identifies the winner under optimal play conditions. Handle edge cases, such as when no pairs can be formed initially. Return the result as 'Takahashi' or 'Aoki' based on who wins, formatted as a string.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

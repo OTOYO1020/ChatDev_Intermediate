@@ -1,0 +1,33 @@
+Task:
+Read the integer N and the sequence A from standard input. Initialize a loop to repeatedly check the sequence A until the termination condition is met. Check if every pair of adjacent terms in A has an absolute difference of 1:\n   - If true, terminate the loop. If false, find the first pair of adjacent terms A[i] and A[i+1] where the absolute difference is not 1. Determine the insertion values based on the comparison of A[i] and A[i+1]:\n   - If A[i] < A[i+1], generate the sequence from A[i]+1 to A[i+1]-1 and insert it between A[i] and A[i+1].\n   - If A[i] > A[i+1], generate the sequence from A[i]-1 down to A[i+1]+1 and insert it between A[i] and A[i+1]. Update the sequence A with the newly inserted values. Repeat steps 3 to 6 until the termination condition is satisfied. Once the loop ends, prepare the final sequence A for output. Print the final sequence A as space-separated integers.\n\n### Function and Variable Names:\n- Function: 'insert_numbers(A)'\n- Variables: 'N', 'A', 'i', 'inserted_values' (for the generated sequences)
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+excel
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

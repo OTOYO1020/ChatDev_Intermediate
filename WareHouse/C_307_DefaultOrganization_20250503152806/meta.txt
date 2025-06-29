@@ -1,0 +1,33 @@
+Task:
+Read the dimensions \( H_A, W_A, H_B, W_B, H_X, W_X \) from standard input. Read the \( H_A \) strings representing sheet \( A \) into a list 'A' of size \( H_A \). Read the \( H_B \) strings representing sheet \( B \) into a list 'B' of size \( H_B \). Read the \( H_X \) strings representing sheet \( X \) into a list 'X' of size \( H_X \). Create a function 'create_sheet_C(A, B)' that combines sheets \( A \) and \( B \) into an infinitely large sheet \( C \) by overlaying them. In 'create_sheet_C', iterate through each cell in sheets \( A \) and \( B \) to determine the color of each corresponding cell in sheet \( C \):\n   - If either \( A[i][j] \) or \( B[i][j] \) is '#', set \( C[i][j] \) to '#'; otherwise, set it to '.'. Create a function 'can_cut_out(C, X, H_X, W_X)' that checks if a cut-out area from sheet \( C \) can match sheet \( X \) while including all black squares from sheets \( A \) and \( B \). In 'can_cut_out', iterate through all possible positions where the \( H_X \times W_X \) area can be cut from \( C \) and check if it matches \( X \) and contains all black squares. Ensure that the cut-out area includes all black squares from both sheets \( A \) and \( B \) by maintaining a count of black squares and verifying against the cut-out. Print YES if the cut-out can be achieved, otherwise print NO.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

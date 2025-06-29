@@ -1,0 +1,33 @@
+Task:
+Read integers N and K from standard input. Initialize a set to store unique sums of chosen integers. Generate the list of integers from \(10^{100}\) to \(10^{100} + N\). Use combinations to select subsets of the generated integers with size \(K\) or more. For each selected subset, calculate the sum of the integers. Store the sum modulo \(10^9 + 7\) in the set of unique sums. Repeat the process for all possible sizes from \(K\) to \(N + 1\). Count the number of unique sums stored in the set. Print the count of unique sums as the final output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

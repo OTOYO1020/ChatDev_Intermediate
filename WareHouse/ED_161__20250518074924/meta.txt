@@ -1,0 +1,33 @@
+Task:
+Define the function 'find_work_days(N: int, K: int, C: int, S: str) -> List[int]' to encapsulate the solution. Parse the input values for N, K, C, and S from the standard input format. Initialize an empty list 'work_days' to store the days Takahashi will work. Iterate through the days from 1 to N, checking if the day is available for work based on the string S and the cooldown period C. If the current day is marked as 'x' in S, skip to the next day. If the current day is available and Takahashi has not yet chosen K workdays, add the current day to 'work_days'. After choosing a workday, mark the next C days as unavailable for work. Continue this process until K workdays have been selected or all days have been checked. Return the list 'work_days' containing the days Takahashi is bound to work. Format the output as a space-separated string of workdays.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

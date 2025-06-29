@@ -1,0 +1,5 @@
+
+You can add the required dependencies inside the `<dependencies>` section of the pom.xml file. Replace the example dependency with the actual dependencies your project requires.
+
+If you're using Gradle, you can create a build.gradle file in the root directory of your project and specify the required dependencies there. Here's an example of how the build.gradle file might look like for the given project:
+

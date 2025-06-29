@@ -1,0 +1,2 @@
+javafx-controls==16
+javafx-fxml==16

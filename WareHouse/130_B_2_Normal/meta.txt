@@ -1,0 +1,33 @@
+Task:
+Parse Input: Create a function 'parse_input()' to handle the input format. Read integers 'N', a list of integers 'L', and an integer 'X'. / Initialize Variables: Define a function 'initialize_variables()' to initialize 'D[0] = 0'. / Calculate Bounce Coordinates: Implement 'calculate_bounce_coordinates(N, L)' to compute 'D[i] = D[i-1] + L[i-1]'. / Count Valid Bounces: Create 'count_valid_bounces(D, X)' to count how many coordinates are <= X. / Return Result: Define 'get_result()' to return the count of valid bounces. / Output Format: Print the result from 'get_result()'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

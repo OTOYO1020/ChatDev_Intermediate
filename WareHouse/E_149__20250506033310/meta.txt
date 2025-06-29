@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, representing the number of ordinary guests and the number of handshakes, respectively. Read an array A of length N, where each element A[i] represents the power of the i-th ordinary guest. Initialize a variable 'happiness' to 0 to keep track of the total happiness after handshakes. Create a set 'handshake_set' to store unique pairs of handshakes (x, y) to ensure no handshake is repeated. Implement a loop to perform M handshakes:\n   - For each handshake, select two guests x and y (where 1 ≤ x, y ≤ N).\n   - Check if the pair (x, y) is not already in 'handshake_set'.\n   - If unique, add (x, y) to 'handshake_set' and update 'happiness' by adding A[x-1] + A[y-1] (adjusting for 0-based indexing). If the number of unique handshakes reaches M, break the loop early to avoid unnecessary iterations. Print the final value of 'happiness' as the output.\n\nThis structure ensures that the requirements are clear and the implementation steps are logically organized to achieve the desired outcome.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

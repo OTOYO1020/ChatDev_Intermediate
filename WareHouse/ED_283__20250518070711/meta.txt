@@ -1,0 +1,33 @@
+Task:
+Define the function 'min_operations_to_isolate(H: int, W: int, A: List[List[int]]) -> Tuple[bool, int]' to handle the input parameters where H is the number of rows, W is the number of columns, and A is the matrix of integers. Implement input handling to read the matrix dimensions H and W, and the matrix A from standard input. Create a nested loop to iterate through each element of the matrix A to check if it is isolated based on the defined conditions. Define a helper function 'is_isolated(i: int, j: int, A: List[List[int]], H: int, W: int) -> bool' to determine if the element A[i][j] is isolated. Implement the operation to flip the values of an entire row in the matrix A when a row index i is chosen. Count the number of operations needed to ensure that no element in the matrix A is isolated after performing the row flipping operations. Determine if it is possible to make the matrix A such that no element is isolated by analyzing the final state of the matrix after the operations. Return a tuple containing a boolean indicating if it is possible and the minimum number of operations required. Ensure that the function handles edge cases such as already non-isolated matrices or matrices that cannot be made non-isolated. Format the output to display whether it is possible to achieve the desired state and the minimum number of operations required.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

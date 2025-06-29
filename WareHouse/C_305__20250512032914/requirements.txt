@@ -1,0 +1,3 @@
+
+This file indicates that there are no additional packages needed for the project to run properly. However, if you want to keep it open for future scalability or potential library additions, you might consider including commonly used libraries, even if they are not currently required. Here’s an example of a more comprehensive `requirements.txt` file that includes some common libraries:
+

@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, ensuring that it falls within the constraint \(1 \leq N \leq 30\). Initialize a list of lists 'A' to store the integer sequences, where each sublist corresponds to a sequence \(A_i\). Loop over the range from 0 to \(N-1\) (inclusive) to construct each sequence \(A_i\):\n   - For each \(i\), initialize a sublist 'A[i]' with a length of \(i + 1\). Loop over the range from 0 to \(i\) (inclusive) to fill in the values of \(A_i\):\n   - If \(j = 0\) or \(j = i\), set 'A[i][j] = 1'.\n   - Otherwise, set 'A[i][j] = A[i-1][j-1] + A[i-1][j]'. After constructing all sequences, prepare to format the output. Loop through each sequence \(A_i\) and convert it to a string format for output. Print each sequence on a new line.\n\nOutput format:\n- Each sequence \(A_i\) should be printed on a new line, with the elements separated by spaces.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+document
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

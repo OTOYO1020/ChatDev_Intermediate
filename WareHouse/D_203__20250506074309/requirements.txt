@@ -1,0 +1,5 @@
+
+This format clearly indicates that there are no current dependencies while also providing a placeholder for future library usage. If you decide to use libraries like NumPy or Pandas later on, you can simply uncomment the relevant lines. 
+
+If you prefer to have a more explicit file with common libraries included, here’s an alternative:
+

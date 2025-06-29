@@ -1,0 +1,18 @@
+'''
+This page displays the chat functionality.
+'''
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chat</title>
+</head>
+<body>
+    <h1>Chat</h1>
+    <form action="/send" method="post">
+        <label for="message">Message:</label><br>
+        <input type="text" id="message" name="message"><br><br>
+        <input type="submit" value="Send">
+    </form>
+    <p th:text="${result}"></p>
+</body>
+</html>

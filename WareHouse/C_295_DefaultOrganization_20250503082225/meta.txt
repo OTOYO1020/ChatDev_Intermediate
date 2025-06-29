@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, representing the number of socks. Read the array A of length N, where each element A[i] represents the color of the i-th sock. Initialize a dictionary 'color_count' to keep track of the count of each sock color. Iterate through the array A and populate 'color_count' with the frequency of each color. Initialize a variable 'max_pairs' to 0 to count the maximum number of pairs that can be formed. For each color in 'color_count', calculate the number of pairs that can be formed by integer division of the count by 2 and update 'max_pairs'. Print the value of 'max_pairs' as the final output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+49.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

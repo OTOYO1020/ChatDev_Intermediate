@@ -1,0 +1,4 @@
+# No external dependencies required for this project.
+# Uncomment the following lines if you decide to use any of these packages in the future.
+# numpy
+# pandas

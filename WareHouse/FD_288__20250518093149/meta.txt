@@ -1,0 +1,33 @@
+Task:
+Define the function 'calculate_sum_of_products(X: str, N: int) -> int' to handle the main logic of the problem. Parse the input to extract the integer 'X' and its digit count 'N' from the input format. Ensure that 'X' is a string of length 'N' and contains no '0' digits. Generate all possible subsets 'S' of the set '{1, 2, ..., N-1}'. For each subset 'S', split the string 'X' into '|S| + 1' parts based on the indices in 'S'. Convert each of the split parts into integers and calculate the product for the subset 'f(S)'. Accumulate the sum of all 'f(S)' values computed for each subset 'S'. Apply modulo '998244353' to the accumulated sum to ensure it fits within the required output constraints. Return the final result from the function 'calculate_sum_of_products'. Output the result in the specified format.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

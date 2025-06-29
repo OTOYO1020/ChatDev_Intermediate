@@ -1,0 +1,33 @@
+Task:
+Read integers N and K from standard input. Read the tastiness values into an array A of length N. Read the indices of disliked foods into an array B of length K. Identify the maximum tastiness value from the array A. Create a list of indices of foods that have the maximum tastiness. Check if any of the indices in the list of maximum tastiness foods are present in the disliked foods array B. If there is an intersection, set a flag 'has_disliked_food' to True; otherwise, set it to False. Print 'Yes' if 'has_disliked_food' is True; otherwise, print 'No'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

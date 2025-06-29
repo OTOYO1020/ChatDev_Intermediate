@@ -1,0 +1,33 @@
+Task:
+Read integers H and W from standard input, representing the number of rows and columns of cookies. Initialize a 2D list 'cookies' to store the color of each cookie, reading H rows of W lowercase English letters. Create a boolean 2D list 'marked' of the same dimensions as 'cookies' to track which cookies are marked for removal. Implement a loop to perform the marking and removal procedure:\n   - For each row 'i' from 0 to H-1:\n     - Count the occurrences of each color in 'cookies[i]'.\n     - If any color appears two or more times, mark those cookies in 'marked'.\n   - For each column 'j' from 0 to W-1:\n     - Count the occurrences of each color in the column using 'cookies[k][j]' for k from 0 to H-1.\n     - If any color appears two or more times, mark those cookies in 'marked'. After marking, check if there are any marked cookies:\n   - If there are marked cookies, remove them from 'cookies' and reset 'marked' for the next iteration.\n   - If there are no marked cookies, exit the loop. Count the remaining cookies in 'cookies' that are not marked. Print the count of remaining cookies.\n\nThis structured approach ensures that the problem is broken down into manageable subtasks, facilitating implementation and testing.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

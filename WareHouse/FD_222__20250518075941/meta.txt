@@ -1,0 +1,33 @@
+Task:
+Define the function 'max_travel_cost(N: int, roads: List[Tuple[int, int, int]], sightseeing_costs: List[int]) -> List[int]' to handle the input format, where 'N' is the number of towns, 'roads' is a list of tuples containing the connections and tolls for each road, and 'sightseeing_costs' is a list of costs for sightseeing in each town. Parse the input to extract the number of towns 'N', the list of roads as tuples '(A_i, B_i, C_i)', and the list of sightseeing costs 'D'. Construct a graph representation of the towns and roads using an adjacency list to facilitate traversal. Implement a function to calculate the shortest path between two towns using Dijkstra's algorithm or a similar method to account for toll costs. For each town 'i', iterate through all other towns 'j' to calculate the travel cost 'E_{i,j}' using the formula provided, which includes the sightseeing cost and the total toll incurred. Store the maximum travel cost for each town 'i' in a result list, ensuring to skip the calculation when 'i' equals 'j'. Return the list of maximum travel costs for each town as the output of the function. Ensure that the function handles edge cases, such as towns with no roads or towns with the same sightseeing costs. Optimize the algorithm to handle the upper limits of the input constraints efficiently, ensuring that the solution runs within a reasonable time frame. Output the result in the required format, which is a list of integers representing the maximum travel costs for each town.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

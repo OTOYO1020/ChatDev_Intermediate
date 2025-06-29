@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input. Initialize a list 'assignments' to store the pairs of integers assigned to each playing field. Create a list 'players' containing integers from 1 to N to represent the players. For each playing field from 1 to M:\n   - Assign two distinct integers from the 'players' list to the current playing field.\n   - Ensure that the same integer is not assigned to multiple playing fields. Implement a mechanism to rotate the players' integers after each round:\n   - For each player, increment their integer by 1.\n   - If a player's integer exceeds N, reset it to 1. Ensure that no player fights the same opponent more than once during the N rounds:\n   - Track the opponents each player has faced using a data structure (e.g., a set).\n   - Check against this data structure before assigning opponents in each round. Print the 'assignments' list, which contains the pairs of integers assigned to each playing field. Ensure that the output format matches the required specifications (e.g., pairs on separate lines).
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,3 @@
+
+If you want to keep the option open for future dependencies or common libraries that might be useful, you can structure it like this:
+

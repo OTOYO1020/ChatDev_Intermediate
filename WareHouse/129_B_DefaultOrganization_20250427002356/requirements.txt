@@ -1,0 +1,3 @@
+
+If you anticipate future enhancements that may require libraries such as `numpy` or `pandas`, you can prepare for that by including them in the `requirements.txt` file as follows:
+

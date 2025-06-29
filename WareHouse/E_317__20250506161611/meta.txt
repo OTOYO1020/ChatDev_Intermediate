@@ -1,0 +1,33 @@
+Task:
+Read the dimensions of the grid, H and W, from standard input. Read the grid representation, A, which consists of H rows and W columns. Identify the coordinates of the starting point 'S' and the goal point 'G'. Create a function 'is_passable(x, y)' to check if a square at (x, y) is passable (i.e., it is either '.' or 'S' or 'G'). Create a function 'mark_line_of_sight()' to mark all squares that are in the line of sight of any person ('>', 'v', '<', '^') as impassable.\n   - For each person, extend their line of sight in the direction they are facing until an obstacle or another person is encountered. Implement a breadth-first search (BFS) algorithm to explore the grid starting from 'S'.\n   - Use a queue to manage the current position and the number of moves taken.\n   - For each position, check all four possible moves (up, down, left, right) using the 'is_passable()' function. If the goal 'G' is reached during the BFS, return the number of moves taken. If the BFS completes without reaching 'G', return that the goal is unreachable. Print the minimum number of moves required to reach the goal or indicate that it is unreachable. Ensure that the output format is consistent with the problem statement, either printing the number of moves or a message indicating that the goal cannot be reached.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

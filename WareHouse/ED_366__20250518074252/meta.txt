@@ -1,0 +1,33 @@
+Task:
+Define a function 'count_integer_pairs(N: int, D: int, points: List[Tuple[int, int]]) -> int' to encapsulate the logic for counting integer pairs. Parse the input to extract the integer N, the integer D, and the list of points (x_i, y_i) from the input format. Store the points in a list of tuples, ensuring that each point is unique as per the problem constraints. Determine the minimum and maximum x-coordinates and y-coordinates from the list of points to define the search space for (x, y). Iterate through all possible integer values of x within the defined range and for each x, iterate through all possible integer values of y within the defined range. For each pair (x, y), calculate the sum of Manhattan distances to all points using the formula 'sum(|x - x_i| + |y - y_i| for each point (x_i, y_i))'. Count the number of pairs (x, y) for which the calculated sum of distances is less than or equal to D. Return the count of valid pairs from the function 'count_integer_pairs'. Implement input handling to read from standard input and convert it into the required format for the function. Format the output as an integer representing the number of valid pairs.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

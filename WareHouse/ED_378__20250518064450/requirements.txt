@@ -1,0 +1,3 @@
+
+If you want to include placeholders for commonly used libraries in similar projects, you could also consider adding them as comments, like this:
+

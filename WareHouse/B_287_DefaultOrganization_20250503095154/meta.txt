@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input. Initialize an empty list 'S' to store N strings of length 6. For i from 1 to N, read each string 'S_i' and append it to the list 'S'. Initialize an empty list 'T' to store M strings of length 3. For j from 1 to M, read each string 'T_j' and append it to the list 'T'. Initialize a counter variable 'count' to 0. For each string 'S_i' in the list 'S', extract the last three characters and check if they exist in the list 'T'. If a match is found, increment the 'count' by 1. After processing all strings in 'S', print the value of 'count' as the result. Ensure that the output format is a single integer representing the count of matching strings.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

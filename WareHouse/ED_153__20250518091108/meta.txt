@@ -1,0 +1,33 @@
+Task:
+Define a function 'minimum_magic_points(H: int, N: int, A: List[int], B: List[int]) -> int' to calculate the minimum total Magic Points needed. Parse the input values for 'H', 'N', 'A', and 'B' from the standard input. Initialize a variable 'min_magic_points' to a large value to keep track of the minimum Magic Points required. Implement a loop to iterate through all possible combinations of spells to determine the minimum Magic Points needed to reduce the monster's health to 0 or below. For each spell, calculate how many times it needs to be cast to reduce the monster's health and compute the total Magic Points consumed. Update 'min_magic_points' whenever a lower total Magic Points value is found during the iterations. Ensure that the solution accounts for the possibility of casting the same spell multiple times. Return the value of 'min_magic_points' as the output of the function. Handle edge cases where 'H' is already 0 or less at the start. Print the output in the required format after calling the function.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

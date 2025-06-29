@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of dimensions. Read the N integers \( x_1, x_2, \ldots, x_N \) from standard input, which represent the coordinates in the N-dimensional space. Initialize variables 'manhattan_distance', 'euclidean_distance', and 'chebyshev_distance' to 0. Loop through each coordinate \( x_i \) (from 1 to N):\n   - Update 'manhattan_distance' by adding the absolute value of \( x_i \) to it.\n   - Update 'euclidean_distance' by adding the square of the absolute value of \( x_i \) to it.\n   - Update 'chebyshev_distance' by comparing the absolute value of \( x_i \) with the current maximum value. After the loop, compute the square root of 'euclidean_distance' to get the final Euclidean distance. Print the results for 'manhattan_distance', 'euclidean_distance', and 'chebyshev_distance' in the specified format. \n\nOutput format:\n- The output should consist of three lines, each containing one of the distances: Manhattan distance, Euclidean distance, and Chebyshev distance.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+web application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

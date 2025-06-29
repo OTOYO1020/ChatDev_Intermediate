@@ -1,0 +1,3 @@
+
+This format clearly communicates that the project does not rely on any third-party libraries, making it straightforward for anyone who might work on the project in the future. If you decide to include common libraries for potential future use, you can use the following format:
+

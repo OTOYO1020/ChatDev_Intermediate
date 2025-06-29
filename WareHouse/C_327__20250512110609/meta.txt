@@ -1,0 +1,33 @@
+Task:
+Define the function 'is_valid_sudoku(grid: List[List[int]]) -> str' to check if the given 9x9 grid satisfies the Sudoku conditions. Implement input handling to read a 9x9 grid of integers from standard input, ensuring each integer is between 1 and 9. Create a helper function 'check_rows(grid: List[List[int]]) -> bool' to verify that each row contains the integers 1 to 9 exactly once. Create a helper function 'check_columns(grid: List[List[int]]) -> bool' to verify that each column contains the integers 1 to 9 exactly once. Create a helper function 'check_subgrids(grid: List[List[int]]) -> bool' to verify that each 3x3 subgrid contains the integers 1 to 9 exactly once. In the 'is_valid_sudoku' function, call 'check_rows' and return False if any row check fails. In the 'is_valid_sudoku' function, call 'check_columns' and return False if any column check fails. In the 'is_valid_sudoku' function, call 'check_subgrids' and return False if any subgrid check fails. If all checks pass, return 'Yes' from the 'is_valid_sudoku' function; otherwise, return 'No'. Print the output of the 'is_valid_sudoku' function after processing the input grid.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

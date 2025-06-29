@@ -1,0 +1,33 @@
+Task:
+Read integers N and K from standard input. Initialize a list 'positions' representing the arrangement of balls, with the black ball at index 0 and white balls at indices 1 to N-1. Initialize a variable 'expected_position' to 0 to accumulate the expected position of the black ball. For each operation from 1 to K:\n   - Randomly select two distinct integers 'a' and 'b' from the range [1, N].\n   - Swap the balls at positions 'a-1' and 'b-1' in the 'positions' list. After K operations, calculate the expected position of the black ball by iterating through the 'positions' list. Compute the irreducible fraction representation of the expected value as P/Q. Calculate R such that \( R \times Q \equiv P \mod 998244353 \). Ensure that \( Q \) is not congruent to 0 modulo 998244353. Print the result R. Handle any potential edge cases, such as when N = 1 or K = 0, to ensure the solution is robust.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

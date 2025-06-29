@@ -1,0 +1,3 @@
+
+This file serves as a clear indication to anyone reviewing the project that the current implementation is self-contained and does not rely on any third-party packages. If you anticipate future scalability and the potential need for libraries, you can also include placeholders for common libraries as follows:
+

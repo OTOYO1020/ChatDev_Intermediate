@@ -1,0 +1,14 @@
+'''
+Module to define the City class representing a city with coordinates.
+'''
+class City:
+    def __init__(self, x, y, z):
+        self.x = x
+        self.y = y
+        self.z = z
+    def __eq__(self, other):
+        return self.x == other.x and self.y == other.y and self.z == other.z
+    def __hash__(self):
+        return hash((self.x, self.y, self.z))
+    def get_coordinates(self):
+        return (self.x, self.y, self.z)  # New method to return coordinates

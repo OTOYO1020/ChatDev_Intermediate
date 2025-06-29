@@ -1,0 +1,33 @@
+Task:
+Please develop in Java. BudgetOptimizerPlus is a budgeting software application that goes beyond the basic functionality of tracking and managing budgets. It offers advanced features to help individuals optimize their financial management and achieve their long-term financial goals. It provides users with personalized recommendations based on their spending patterns and financial habits. BudgetOptimizerPlus also includes a savings tracker that allows users to set savings goals and track their progress over time. With its comprehensive functionality and user-friendly interface, BudgetOptimizerPlus is designed to empower individuals to make informed financial decisions and achieve financial success.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+web application
+
+Ideas:
+
+
+Language:
+ Java
+
+Code_Version:
+19.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

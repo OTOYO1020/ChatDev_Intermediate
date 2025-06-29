@@ -1,0 +1,33 @@
+Task:
+Read integers N, M, and K from standard input. Initialize a list to store the test results, which includes tuples of (C_i, list of keys A_{i,j}, R_i). For each test from 1 to M:\n   - Read C_i and the corresponding keys A_{i,1}, A_{i,2}, ..., A_{i,C_i}.\n   - Read the result R_i (either 'o' or 'x').\n   - Store the test data in the initialized list. Generate all possible combinations of keys being real or dummy (total of 2^N combinations). For each combination:\n   - Check each test result:\n     - If R_i is 'o', verify that at least K keys in the combination are real.\n     - If R_i is 'x', ensure that fewer than K keys are real. Count the number of valid combinations that satisfy all test results. If no valid combinations exist, return 0; otherwise, return the count of valid combinations. Print the final count of valid combinations.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

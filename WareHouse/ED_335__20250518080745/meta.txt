@@ -1,0 +1,33 @@
+Task:
+Parse the input to extract the number of vertices N, number of edges M, and the list of edges (U_i, V_i) along with the values A_v for each vertex. Construct the graph representation using an adjacency list or similar data structure based on the edges provided. Implement a function to perform a depth-first search (DFS) or breadth-first search (BFS) to explore all simple paths from vertex 1 to vertex N. During the path exploration, maintain a sequence S of integers corresponding to the vertices visited along the path. Check if the sequence S is non-decreasing; if it is not, assign a score of 0 for that path. If S is non-decreasing, calculate the score as the number of distinct integers in S. Keep track of the maximum score encountered during the exploration of all paths from vertex 1 to vertex N. Handle cases where no valid path exists by ensuring the graph is connected as per the problem constraints. Define the function 'find_max_score_path(N, M, edges, values)' to encapsulate the logic for finding the maximum score path. Output the maximum score found after exploring all paths from vertex 1 to vertex N.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

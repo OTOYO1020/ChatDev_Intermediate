@@ -1,0 +1,33 @@
+Task:
+Read the integer T from standard input, which represents the number of test cases. For each test case, read the integers N, X, and K from standard input. Construct the tree structure based on the given rules:\n   - For each vertex i (from 2 to N), create an edge connecting vertex i to vertex ⌊i/2⌋. Determine the distance from vertex X to all other vertices in the tree. Count the number of vertices that are exactly K edges away from vertex X. Store the count for each test case. After processing all test cases, prepare the results for output. Print the results for each test case on a new line.\n\nNote: Given the constraints, especially with N being as large as 10^18, the tree structure should be conceptualized rather than explicitly constructed. The distance calculation should leverage the properties of the binary tree structure without needing to store all vertices.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

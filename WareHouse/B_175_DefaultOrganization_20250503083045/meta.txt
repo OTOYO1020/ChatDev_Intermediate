@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of sticks. Read the lengths of the sticks into an array 'L' of size N. Initialize a variable 'count' to 0 to keep track of valid triangle combinations. Iterate through all possible combinations of three distinct indices (i, j, k) where \(1 \leq i < j < k \leq N\). For each combination, check if the lengths \(L[i]\), \(L[j]\), and \(L[k]\) are all different. If they are different, check if they satisfy the triangle inequality:\n   - Ensure \(L[i] + L[j] > L[k]\)\n   - Ensure \(L[i] + L[k] > L[j]\)\n   - Ensure \(L[j] + L[k] > L[i]\) If both conditions are satisfied, increment the 'count' by 1. After checking all combinations, print the final value of 'count' as the result. Ensure that all input values are integers and within the specified constraints. Output the result in a single integer format representing the number of valid triangle combinations.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

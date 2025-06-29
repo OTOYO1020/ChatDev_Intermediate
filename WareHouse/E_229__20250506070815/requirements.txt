@@ -1,0 +1,3 @@
+
+This indicates that the project does not require any additional packages to run. However, if you want to prepare for future extensibility or potential use of libraries, you can include commonly used libraries like NumPy or Pandas, as shown below:
+

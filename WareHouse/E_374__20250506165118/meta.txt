@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of processes. Initialize lists for machine processing capacities 'A', 'B' and costs 'P', 'Q' of size N. For each process i from 1 to N:\n   - Read the values of 'A_i', 'B_i', 'P_i', and 'Q_i' from standard input and store them in the respective lists. Read the total budget X from standard input. Define a function 'calculate_max_capacity(A, B, P, Q, X)' to compute the maximum achievable production capacity. Inside 'calculate_max_capacity', initialize a variable 'max_capacity' to 0. For each process i from 1 to N:\n   - Calculate the maximum number of machines of type S and T that can be purchased within the budget.\n   - Compute the production capacity 'W_i' for the process based on the number of machines purchased.\n   - Update 'max_capacity' as the minimum of 'max_capacity' and 'W_i'. Return the 'max_capacity' from the function. Call 'calculate_max_capacity(A, B, P, Q, X)' and store the result. Print the result as the maximum achievable production capacity.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

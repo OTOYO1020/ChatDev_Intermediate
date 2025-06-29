@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of members in the company. Initialize an array 'subordinates_count' of size N+1 (to accommodate 1-based indexing) with all values set to 0 to store the count of immediate subordinates for each member. Read the array 'A' of size N-1 from standard input, where each element 'A[i]' represents the immediate boss of member 'i+2'. Iterate through the array 'A':\n   - For each member 'i' (from 2 to N), increment the subordinate count of their boss 'A[i-2]' in the 'subordinates_count' array. Prepare the output by collecting the subordinate counts from 'subordinates_count' for members 1 to N. Print the subordinate counts for each member from 1 to N, each on a new line.\n\nThis breakdown ensures that we efficiently count the immediate subordinates for each member based on the given boss relationships.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,5 @@
+
+Replace `org.example` with the actual group ID of the dependency, `dependency1` and `dependency2` with the artifact IDs, and `1.0.0` and `2.0.0` with the desired versions.
+
+If you are using Gradle as the build tool, you can specify the dependencies in the build.gradle file. Here is an example of how you can add dependencies in the build.gradle file:
+

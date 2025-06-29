@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of boxes and items. Initialize two lists: 'A' to store the box numbers for each item and 'W' to store the weights of each item. Read the next N integers into list 'A', where 'A[i]' indicates the box number of item 'i+1'. Read the next N integers into list 'W', where 'W[i]' indicates the weight of item 'i+1'. Create a dictionary 'box_items' to map each box to the list of items currently in it. For each box in 'box_items', check if it contains more than one item:\n   - If yes, calculate the cost of moving items to other boxes to ensure each box contains exactly one item. Use a priority queue (min-heap) to efficiently manage the weights of items that need to be moved. Continuously move items from boxes with excess items to boxes that are empty, keeping track of the total cost incurred during these operations. Return the total minimum cost required to achieve the desired configuration. Print the total cost as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

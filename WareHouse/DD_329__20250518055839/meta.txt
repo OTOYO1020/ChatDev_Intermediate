@@ -1,0 +1,33 @@
+Task:
+Define a function 'determine_winners(N: int, M: int, votes: List[int]) -> List[int]' to handle the input parameters where 'N' is the number of candidates, 'M' is the number of votes, and 'votes' is a list of integers representing the votes for candidates. Initialize a list 'vote_count' of size 'N+1' to keep track of the number of votes each candidate receives, indexed by candidate number. Iterate through the 'votes' list using a loop from '0' to 'M-1' to count the votes for each candidate. For each vote counted, update the 'vote_count' for the corresponding candidate 'A_i'. Determine the current winner after each vote by finding the candidate with the maximum votes in 'vote_count'. In case of a tie (multiple candidates with the same maximum votes), select the candidate with the smallest candidate number. Store the current winner in a results list 'winners' after each vote is counted. Return the 'winners' list containing the winner after each of the 'M' votes have been counted. Ensure that the function handles edge cases, such as when all votes go to one candidate or when there are ties. Output the results in the required format, which is a list of integers representing the winner after each vote.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

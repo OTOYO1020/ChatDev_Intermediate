@@ -1,0 +1,3 @@
+
+To build and manage your Java project with Gradle, you can use the following command:
+

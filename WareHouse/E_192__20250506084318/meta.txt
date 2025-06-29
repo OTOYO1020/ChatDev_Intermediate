@@ -1,0 +1,33 @@
+Task:
+Read integers N (number of cities), M (number of railroads), and the two cities X and Y from standard input. Initialize a graph representation to store the railroads, using an adjacency list where each entry contains pairs of connected cities and their respective travel times. For each railroad i (from 1 to M), read the endpoints A_i and B_i, and the travel time T_i and K_i. Store this information in the graph. Implement a priority queue (min-heap) to facilitate the Dijkstra-like algorithm for finding the earliest arrival time at City Y. Initialize a distance array to keep track of the earliest time to reach each city, starting with City X at time 0. For each city, calculate the next available departure time based on the current time and the frequency K_i of the trains. Update the earliest arrival times for connected cities based on the travel time T_i and the next available departure time. Continue processing until all reachable cities are evaluated or until City Y is reached. If City Y is reachable, output the earliest time to reach it; otherwise, report that City Y is unreachable. Print the result based on the computed times.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

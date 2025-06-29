@@ -1,0 +1,5 @@
+
+If you prefer to keep it completely minimal and only include what's necessary, you can choose to leave the `requirements.txt` file empty or omit it altogether, as the current implementation does not rely on any external libraries. 
+
+Here’s how you can create an empty `requirements.txt` file if you decide to go that route:
+

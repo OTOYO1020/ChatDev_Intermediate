@@ -1,0 +1,33 @@
+Task:
+Define the function 'min_moves_bishop(N: int, A_x: int, A_y: int, B_x: int, B_y: int, S: List[str]) -> int' to handle the input parameters. Parse the input to extract the size of the chessboard 'N', the starting position '(A_x, A_y)', the target position '(B_x, B_y)', and the board configuration 'S'. Implement a method to validate the bishop's movement according to chess rules, ensuring it can only move to empty squares and not through occupied squares. Create a function to explore all possible moves of the bishop from its current position using a breadth-first search (BFS) or depth-first search (DFS) approach. Track the number of moves taken to reach each position on the board, ensuring that the minimum number of moves to reach '(B_x, B_y)' is recorded. Handle the case where the bishop cannot reach the target position by returning '-1' if no valid path exists. Ensure that the board boundaries are respected when calculating possible moves for the bishop. Implement a mechanism to check for pawn positions that block the bishop's path during movement calculations. Test the function with various input scenarios to ensure correctness and efficiency, especially for the upper limits of constraints. Return the output in the specified format, which is an integer representing the minimum number of moves or '-1' if unreachable.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

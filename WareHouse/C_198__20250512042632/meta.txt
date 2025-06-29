@@ -1,0 +1,33 @@
+Task:
+Define a function named 'min_steps_to_reach_destination(R: int, X: int, Y: int) -> int' to calculate the minimum number of steps Takahashi needs to reach the point (X, Y) from the origin (0, 0). Implement the calculation of the Euclidean distance from the origin to the destination point (X, Y) using the formula 'distance = sqrt(X^2 + Y^2)'. Determine the minimum number of steps required by dividing the calculated distance by the step size R, using the formula 'steps = ceil(distance / R)'. Ensure that the function handles the case where the destination is not the origin by checking the condition '(X, Y) != (0, 0)'. Implement input handling to read the values of R, X, and Y from standard input, ensuring they meet the specified constraints. Convert the input values from strings to integers as necessary for processing within the function. Call the 'min_steps_to_reach_destination' function with the parsed input values R, X, and Y. Store the result returned by the function in a variable named 'result'. Implement output handling to print the result, which is the minimum number of steps required. Ensure that the program adheres to the constraints provided in the problem statement, particularly the ranges for R, X, and Y.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

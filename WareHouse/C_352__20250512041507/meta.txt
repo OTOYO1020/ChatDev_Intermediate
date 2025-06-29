@@ -1,0 +1,33 @@
+Task:
+Define the function 'max_head_height(N: int, A: List[int], B: List[int]) -> int' to accept the number of giants and their respective shoulder and head heights. Parse the input to extract the values of N, A, and B. Generate all permutations of the list of giants from 1 to N. For each permutation, calculate the total height of the head of the topmost giant by iterating through the giants and summing their shoulder and head heights appropriately. Keep track of the maximum head height encountered across all permutations. Return the maximum head height as the output of the function. Ensure that the function handles edge cases, such as the minimum and maximum constraints for N, A, and B. Implement efficient permutation generation to handle the upper limit of N without performance issues. Test the function with various test cases to validate correctness and performance. Output the result in the format of a single integer representing the maximum height of the head of the topmost giant.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

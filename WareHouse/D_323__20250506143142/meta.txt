@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of different slime sizes. Initialize an empty dictionary 'slime_counts' to store the sizes and their corresponding counts. For each slime size from 1 to N, read the size 'S_i' and count 'C_i' from standard input and populate 'slime_counts' with 'slime_counts[S_i] = C_i'. Initialize a variable 'total_slimes' to the sum of all values in 'slime_counts', representing the initial number of slimes. Iterate over the 'slime_counts' dictionary to perform slime synthesis:\n   - For each size 'X' in 'slime_counts', while 'slime_counts[X]' is greater than or equal to 2:\n     - Calculate the number of new slimes created as 'new_slimes = slime_counts[X] // 2'.\n     - Update 'slime_counts[X]' to 'slime_counts[X] % 2' (remaining slimes after synthesis).\n     - Update or add 'slime_counts[2 * X]' with 'new_slimes'. After all possible syntheses, calculate the final number of slimes by summing the values in 'slime_counts'. Print the final number of slimes.\n\nThis approach ensures that we efficiently manage the synthesis process while keeping track of the number of slimes at each size.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ <Python> *
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

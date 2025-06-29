@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the dimensions of the grid (N x N). Initialize a 2D list 'grid' to store the values of the grid. Populate the 'grid' by reading N lines of input, each containing N integers (either 0 or 1). Create a list 'outer_squares' to store the values of the outer squares in clockwise order. Shift the values in 'outer_squares' by one position clockwise. Update the 'grid' with the new values from 'outer_squares' back into their respective positions. Print the modified 'grid' in the required format.\n\n### Function and Variable Names\n- Function: No specific function is defined, but the operations can be encapsulated in a function if needed.\n- Variables: 'N', 'grid', 'outer_squares'.\n\n### Input Format\n- The input consists of an integer N followed by N lines of N integers each. This will be handled in step 1 and step 3.\n\n### Output Format\n- The output will be the modified grid printed line by line, as described in step 7.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

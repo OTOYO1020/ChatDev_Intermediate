@@ -24,8 +24,10 @@ sys.path.append(root)
 from chatdev.chat_chain import ChatChain
 
 try:
-    from openai.types.chat.chat_completion_message_tool_call import ChatCompletionMessageToolCall
     from openai.types.chat.chat_completion_message import FunctionCall
+    from openai.types.chat.chat_completion_message_tool_call import (
+        ChatCompletionMessageToolCall,
+    )
 
     openai_new_api = True  # new openai api version
 except ImportError:
@@ -70,18 +72,38 @@ def get_config(company):
 
 
 parser = argparse.ArgumentParser(description='argparse')
-parser.add_argument('--config', type=str, default="Default",
+parser.add_argument('--config', type=str, default="Agile",
                     help="Name of config, which is used to load configuration under CompanyConfig/")
-parser.add_argument('--org', type=str, default="DefaultOrganization",
+parser.add_argument('--org', type=str, default="",
                     help="Name of organization, your software will be generated in WareHouse/name_org_timestamp")
 parser.add_argument('--task', type=str, default="Develop a basic Gomoku game.",
                     help="Prompt of software")
 parser.add_argument('--name', type=str, default="Gomoku",
                     help="Name of software, your software will be generated in WareHouse/name_org_timestamp")
-parser.add_argument('--model', type=str, default="GPT_3_5_TURBO",
+parser.add_argument('--model', type=str, default="GPT_4O_MINI",
                     help="GPT Model, choose from {'GPT_3_5_TURBO', 'GPT_4', 'GPT_4_TURBO', 'GPT_4O', 'GPT_4O_MINI'}")
 parser.add_argument('--path', type=str, default="",
                     help="Your file directory, ChatDev will build upon your software in the Incremental mode")
+parser.add_argument('--subtask1', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask2', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask3', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask4', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask5', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask6', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask7', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask8', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask9', type=str, default="",
+                    help="Prompt of software's one function.")
+parser.add_argument('--subtask10', type=str, default="",
+                    help="Prompt of software's one function.")
 args = parser.parse_args()
 
 # Start ChatDev
@@ -105,6 +127,16 @@ chat_chain = ChatChain(config_path=config_path,
                        config_phase_path=config_phase_path,
                        config_role_path=config_role_path,
                        task_prompt=args.task,
+                       subtask1=args.subtask1,
+                       subtask2=args.subtask2,
+                       subtask3=args.subtask3,
+                       subtask4=args.subtask4,
+                       subtask5=args.subtask5,
+                       subtask6=args.subtask6,
+                       subtask7=args.subtask7,
+                       subtask8=args.subtask8,
+                       subtask9=args.subtask9,
+                       subtask10=args.subtask10,
                        project_name=args.name,
                        org_name=args.org,
                        model_type=args2type[args.model],

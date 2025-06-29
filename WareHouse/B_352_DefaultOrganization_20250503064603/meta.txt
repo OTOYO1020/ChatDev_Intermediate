@@ -1,0 +1,33 @@
+Task:
+Read the input strings 'S' and 'T' from standard input. Initialize an empty list 'correct_positions' to store the indices of correctly typed characters. Initialize a variable 'j' to 0 to track the index of the string 'S'. Loop through each character in string 'T' using index 'i':\n   - If 'j' is less than the length of 'S' and the character at 'T[i]' matches 'S[j]', then:\n     - Append the index 'i' to 'correct_positions'.\n     - Increment 'j' by 1 to move to the next character in 'S'. After the loop, 'correct_positions' will contain all indices of correctly typed characters in 'T'. Print the contents of 'correct_positions' as a space-separated string.\n\nThis structured approach ensures that we accurately identify and record the positions of correctly typed characters in the string 'T' based on the intended string 'S'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

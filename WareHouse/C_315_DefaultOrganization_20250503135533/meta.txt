@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, representing the number of ice cream cups. Initialize two lists: 'flavors' to store the flavor of each cup and 'deliciousness' to store the deliciousness of each cup. Loop from 1 to N to read the flavor and deliciousness values for each cup, storing them in 'flavors[i]' and 'deliciousness[i]' respectively. Initialize a variable 'max_satisfaction' to keep track of the maximum satisfaction achieved. Use a nested loop to evaluate all pairs of cups (i, j) where i < j:\n   - If 'flavors[i]' is not equal to 'flavors[j]', calculate satisfaction as 'deliciousness[i] + deliciousness[j]'.\n   - If 'flavors[i]' is equal to 'flavors[j]', calculate satisfaction as 'deliciousness[i] + (deliciousness[j] / 2)'.\n   - Update 'max_satisfaction' if the calculated satisfaction is greater than the current value. After evaluating all pairs, print the value of 'max_satisfaction' as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

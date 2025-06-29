@@ -1,0 +1,4 @@
+
+Similarly, in Gradle, you can specify the dependencies in the build.gradle file as follows:
+
+build.gradle

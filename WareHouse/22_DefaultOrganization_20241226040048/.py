@@ -1,0 +1,2 @@
+You will need to fill in the specific details of each step based on the requirements of the game. Remember to update the game state continuously and handle user input to create an interactive gameplay experience.
+Once you have implemented the game logic, please recompile the code and test the game to ensure that it functions as expected.

@@ -1,0 +1,5 @@
+
+In this example, we have added two dependencies: `javax.swing-api` and `another-library`. You can replace these with the actual dependencies required for your BudgetTrackerLiteEZ project.
+
+To build and manage the project dependencies using Maven, you can run the following command in the project directory:
+

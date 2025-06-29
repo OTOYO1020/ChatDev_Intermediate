@@ -1,0 +1,4 @@
+
+### Option 2: Common Libraries Included
+If you prefer to include common libraries that may be useful for future development, you can create a `requirements.txt` file like this:
+

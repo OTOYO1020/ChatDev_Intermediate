@@ -1,0 +1,33 @@
+Task:
+Define the function 'minimum_moves(N: int, grid: List[str]) -> int' to handle the input parameters, where 'N' is the size of the grid and 'grid' is a list of strings representing the grid layout. Parse the input grid to identify the positions of the two players, storing their coordinates in variables 'player1' and 'player2'. Implement a breadth-first search (BFS) algorithm to explore possible moves for both players from their starting positions. For each move, check if the destination cell is empty (i.e., contains '.') and within the grid boundaries. Track the number of moves taken for each player to reach each cell, using a queue to manage the BFS exploration. If both players reach the same cell during the BFS, calculate the total number of moves taken and store the minimum moves required. If the BFS completes without finding a common cell for both players, set the result to '-1' to indicate it's impossible. Return the result from the function, which is either the minimum number of moves or '-1'. Ensure to handle edge cases, such as when players start adjacent to each other or when obstacles completely block paths. Output the result in the specified format, which is an integer representing the minimum moves or '-1'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

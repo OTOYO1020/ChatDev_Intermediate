@@ -1,0 +1,33 @@
+Task:
+Read integers N (number of players), K (initial points), and Q (number of correct answers) from standard input. Initialize an array 'scores' of size N with all elements set to K, representing the initial scores of each player. Read the sequence of correct answers, which consists of Q integers, and store them in an array 'A'. For each correct answer in 'A', decrement the score of each player except the one who answered correctly:\n   - For each index 'i' in 'A', update 'scores[A[i] - 1]' (the player who answered correctly) to remain unchanged.\n   - For all other players, decrement their scores by 1. After processing all answers, determine which players have scores greater than 0 and store their survival status in a boolean array 'survived'. Print the survival status of each player (1 for survived, 0 for eliminated) based on the 'survived' array.\n\nOutput format:\n- The output should be a single line containing N integers (0 or 1), indicating whether each player survived the game.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

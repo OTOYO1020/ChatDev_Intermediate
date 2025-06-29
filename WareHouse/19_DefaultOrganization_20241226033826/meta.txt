@@ -1,0 +1,33 @@
+Task:
+Please develop in Java. Arena Clash is an action game where players engage in intense battles against each other in various arenas. Players can choose from a range of unique characters, each with their own abilities and playstyles. The objective is to defeat opponents using a combination of skill, strategy, and teamwork. The game features customizable characters, dynamic environments, and different game modes such as team deathmatch and capture the flag.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Java
+
+Code_Version:
+19.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

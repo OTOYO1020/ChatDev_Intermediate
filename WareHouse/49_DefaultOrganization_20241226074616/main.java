@@ -1,0 +1,12 @@
+/**
+ * This is the main class that initializes the GUI and starts the application.
+ */
+import javax.swing.*;
+public class Main {
+    public static void main(String[] args) {
+        // Create an instance of the GUI class
+        GUI gui = new GUI();
+        // Start the application
+        gui.start();
+    }
+}

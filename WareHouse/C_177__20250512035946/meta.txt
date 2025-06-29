@@ -1,0 +1,33 @@
+Task:
+Define a function named 'calculate_sum_pairs(N: int, A: List[int]) -> int' to handle the input parameters where 'N' is the number of integers and 'A' is the list of integers. Implement input handling to read the integer 'N' and the list of integers 'A' from standard input. Initialize a variable 'total_sum' to 0 to store the cumulative sum of products of pairs. Use a nested loop to iterate over all pairs '(i, j)' such that '1 <= i < j <= N'. For each valid pair '(i, j)', calculate the product 'A[i] * A[j]' and add it to 'total_sum'. Ensure that 'total_sum' is updated modulo '(10^9 + 7)' to prevent overflow. After processing all pairs, return the value of 'total_sum' as the output of the function. Implement error handling to ensure that 'N' is within the specified bounds (2 ≤ N ≤ 200,000) and that all elements in 'A' are within the specified range (0 ≤ A[i] ≤ 10^9). Test the function with various input cases to ensure correctness and performance, especially with maximum constraints. Output the result of the function as an integer, which represents the sum of products of pairs modulo (10^9 + 7).
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

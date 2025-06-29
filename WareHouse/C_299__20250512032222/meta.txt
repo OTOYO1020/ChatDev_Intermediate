@@ -1,0 +1,33 @@
+Task:
+Define a function 'find_greatest_dango_level(S: str) -> int' that takes a string 'S' as input and returns an integer representing the greatest level of dango string found. Check the length of the input string 'S' to ensure it meets the constraint '1 <= N <= 200000'. Iterate through the string 'S' to identify all contiguous substrings that start and end with '-' and contain only 'o' characters in between. For each identified substring, calculate its length 'L' and determine if it forms a valid level-'L' dango string based on the conditions provided. Keep track of the maximum level 'X' found during the iteration. If no valid level-'X' dango string is found, prepare to return '-1' as the output. Return the maximum level 'X' found, or '-1' if no valid dango string exists. Ensure the function handles edge cases, such as strings that are too short or contain no valid dango strings. Implement unit tests to verify the correctness of the function with various input cases. Document the function and its parameters clearly for future reference.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+66.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

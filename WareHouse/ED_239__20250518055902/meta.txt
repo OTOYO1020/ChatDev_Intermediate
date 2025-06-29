@@ -1,0 +1,33 @@
+Task:
+Define the function 'find_kth_largest_in_subtree(N: int, edges: List[Tuple[int, int]], values: List[int], queries: List[Tuple[int, int]]) -> List[int]' to handle the input parameters, where 'N' is the number of vertices, 'edges' is a list of tuples representing the edges, 'values' is a list of integers representing the values at each vertex, and 'queries' is a list of tuples containing the queries. Parse the input to extract the number of vertices 'N', the list of edges 'edges', the list of values 'values', and the list of queries 'queries'. Construct the tree using an adjacency list representation from the 'edges' input. Implement a depth-first search (DFS) function to traverse the tree and collect the values in the subtree rooted at each vertex. For each query '(V_i, K_i)', retrieve the values from the subtree rooted at vertex 'V_i' using the results from the DFS. Sort the collected values from the subtree rooted at 'V_i' to find the 'K_i'-th largest value. Handle the case where 'K_i' is guaranteed to be valid (i.e., there are at least 'K_i' vertices in the subtree). Store the results of each query in a list to be returned after processing all queries. Return the list of results corresponding to each query as the output of the function. Ensure that the output format is a list of integers, where each integer is the 'K_i'-th largest value found for the respective query.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+document
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

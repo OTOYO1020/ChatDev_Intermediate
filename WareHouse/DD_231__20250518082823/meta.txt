@@ -1,0 +1,33 @@
+Task:
+Define the function 'canArrangePeople(N: int, M: int, conditions: List[Tuple[int, int]]) -> bool' to handle the input parameters, where 'N' is the number of people, 'M' is the number of conditions, and 'conditions' is a list of tuples representing the adjacency requirements. Implement input handling to read values for 'N' and 'M', and then read 'M' pairs of integers representing the conditions into the 'conditions' list. Create a data structure (such as an adjacency list) to represent the relationships between people based on the conditions provided. Implement a graph traversal algorithm (like BFS or DFS) to explore the adjacency relationships and determine if a valid arrangement is possible. Check for cycles in the adjacency graph, as cycles would indicate that it's impossible to satisfy the adjacency conditions. If no cycles are found, attempt to construct a valid order of people that satisfies all adjacency conditions. Implement a method to validate the constructed order against the original conditions to ensure all are satisfied. Return 'True' if a valid arrangement exists, otherwise return 'False'. Ensure that the function handles edge cases, such as when 'M' is 0, meaning no conditions need to be satisfied. Format the output as a boolean value indicating whether the arrangement is possible.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

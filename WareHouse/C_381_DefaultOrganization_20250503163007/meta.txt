@@ -1,0 +1,33 @@
+Task:
+Read the input string \( S \) from standard input and determine its length \( N \). Initialize a variable \( \text{max\_length} = 0 \) to keep track of the maximum length of valid 11/22 substrings found. Iterate through each character in the string \( S \) to find potential centers of 11/22 substrings (i.e., positions of '/'). For each position \( i \) where \( S[i] = '/' \):\n   - Initialize two pointers: \( \text{left} = i - 1 \) and \( \text{right} = i + 1 \).\n   - Expand the pointers outward while checking the conditions for a valid 11/22 string:\n     - Ensure all characters to the left of '/' are '1' and all characters to the right are '2'. For each valid substring found, calculate its length as \( \text{length} = (\text{right} - \text{left} + 1) \) and update \( \text{max\_length} \) if this length is greater. Continue expanding until the boundaries of the string \( S \) are reached or the conditions for a valid substring are violated. After checking all possible centers, the maximum length of valid 11/22 substrings will be stored in \( \text{max\_length} \). Print the value of \( \text{max\_length} \) as the output.\n\nOutput format:\n- The output will be a single integer representing the maximum length of a contiguous substring of \( S \) that is an 11/22 string.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

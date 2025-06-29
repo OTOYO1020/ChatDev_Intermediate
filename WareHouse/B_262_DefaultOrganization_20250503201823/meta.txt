@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, followed by M pairs of integers (U_i, V_i) representing the edges of the graph. Initialize an adjacency list 'graph' to represent the undirected graph, where 'graph[i]' contains a list of vertices connected to vertex i. Populate the adjacency list 'graph' using the pairs (U_i, V_i) to ensure both directions are represented (i.e., add V_i to graph[U_i] and U_i to graph[V_i]). Initialize a counter 'count' to zero to keep track of valid tuples (a, b, c). Iterate through all combinations of vertices (a, b, c) such that 1 ≤ a < b < c ≤ N. For each combination (a, b, c), check if the edges (a, b), (b, c), and (c, a) exist in the adjacency list 'graph'. If all three edges exist, increment the 'count' by 1. After checking all combinations, print the final value of 'count' as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

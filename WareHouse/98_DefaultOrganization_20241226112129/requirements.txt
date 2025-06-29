@@ -1,0 +1,5 @@
+
+In this pom.xml file, the `<dependencies>` section specifies the required dependencies for the Project Tracker application. It includes the JavaFX controls and JavaFX FXML dependencies with their respective versions.
+
+To build and run the project using Maven, you can use the following commands in the terminal:
+

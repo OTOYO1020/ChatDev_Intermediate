@@ -1,0 +1,33 @@
+Task:
+Define the function 'def minimum_spanning_tree_queries(N: int, M: int, edges: List[Tuple[int, int, int]], Q: int, queries: List[Tuple[int, int, int]]) -> List[str]:' to handle the input parameters. Parse the input to extract the number of vertices 'N', number of edges 'M', the list of edges as tuples '(a_i, b_i, c_i)', and the list of queries as tuples '(u_i, v_i, w_i)'. Implement a data structure to represent the graph 'G' using an adjacency list or edge list based on the parsed edges. Implement a function to compute the minimum spanning tree (MST) of the graph 'G' using Kruskal's or Prim's algorithm. For each query '(u_i, v_i, w_i)', create a new edge 'e_i' and add it to the graph 'G' to form a new graph 'G_i'. Determine if the edge 'e_i' is included in the minimum spanning tree 'T_i' of the graph 'G_i'. Store the result of each query as 'Yes' or 'No' based on whether 'e_i' is included in 'T_i'. Ensure that the original graph 'G' remains unchanged for subsequent queries. Return the list of results for all queries as the output of the function. Format the output as a list of strings, each being 'Yes' or 'No'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+  * Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

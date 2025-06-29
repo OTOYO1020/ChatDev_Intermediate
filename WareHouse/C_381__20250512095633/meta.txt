@@ -1,0 +1,33 @@
+Task:
+Define a function 'max_11_22_length(S: str) -> int' to find the maximum length of a contiguous substring of S that is an 11/22 string. Implement input handling to read the string S from standard input, ensuring it meets the constraints of length N (1 ≤ N ≤ 200,000) and contains at least one '/'. Check if the length of S is odd; if not, return 0 since an 11/22 string must have an odd length. Iterate through the string S to find all possible substrings that contain at least one '/' and check their lengths. For each substring, determine if it satisfies the conditions of an 11/22 string: first half must be all '1's, the middle character must be '/', and the second half must be all '2's. Keep track of the maximum length of valid 11/22 substrings found during the iteration. Return the maximum length found as the output of the function. Implement edge case handling for strings that are too short to contain a valid 11/22 string. Ensure the function is optimized to handle the upper limit of N efficiently, ideally in O(N) time complexity. Output the result as an integer representing the maximum length of the contiguous 11/22 substring.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

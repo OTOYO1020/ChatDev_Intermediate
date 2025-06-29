@@ -1,0 +1,33 @@
+Task:
+Define the function 'can_matrix_be_sorted(H: int, W: int, A: List[List[int]]) -> bool' to handle the input parameters, where H is the number of rows, W is the number of columns, and A is the matrix of integers. Implement input handling to read integers H and W, followed by reading the matrix A of size H x W. Create a loop to iterate through each element of matrix A and replace any element that is 0 with a unique positive integer. Implement a function 'is_matrix_sorted(A: List[List[int]]) -> bool' to check if the matrix A satisfies the sorting condition as described in the problem statement. In the 'is_matrix_sorted' function, check the condition for every pair of rows to ensure that if i < i', then A[i][j] <= A[i'][j'] for all valid j. In the 'is_matrix_sorted' function, check the condition for every pair of columns in the same row to ensure that if j < j', then A[i][j] <= A[i'][j'] for all valid i. Return True from 'is_matrix_sorted' if all conditions are satisfied, otherwise return False. Call the 'is_matrix_sorted' function after processing the matrix to determine if the matrix can be sorted as required. Output the result of the function call, indicating whether the matrix can be made to satisfy the sorting condition. Ensure that all input constraints are validated before processing the matrix.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

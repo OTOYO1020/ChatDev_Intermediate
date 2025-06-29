@@ -1,0 +1,6 @@
+
+In the above example, you can replace `com.example:dependency1:1.0.0` and `com.example:dependency2:2.0.0` with the actual dependencies and versions you need for your project.
+
+If you prefer to use Gradle, you can specify the dependencies in the build.gradle file like this:
+
+build.gradle

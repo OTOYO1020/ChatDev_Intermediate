@@ -18,8 +18,10 @@ from camel.messages import BaseMessage
 from camel.typing import RoleType
 
 try:
-    from openai.types.chat.chat_completion_message_tool_call import ChatCompletionMessageToolCall
     from openai.types.chat.chat_completion_message import FunctionCall
+    from openai.types.chat.chat_completion_message_tool_call import (
+        ChatCompletionMessageToolCall,
+    )
 
     openai_new_api = True  # new openai api version
 except ImportError:
@@ -46,6 +48,7 @@ class ChatMessage(BaseMessage):
     role: str
     content: str = ""
     refusal: str = None
+    annotations: Optional[dict] = None
     if openai_new_api:
         function_call: Optional[FunctionCall] = None
         tool_calls: Optional[ChatCompletionMessageToolCall] = None

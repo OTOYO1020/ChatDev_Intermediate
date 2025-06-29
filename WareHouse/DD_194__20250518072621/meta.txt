@@ -1,0 +1,33 @@
+Task:
+Define the function 'expected_operations(N: int) -> float' to calculate the expected number of operations until the graph becomes connected. Implement input handling to read the integer value of N from standard input. Initialize a variable 'operations_count' to track the number of operations performed. Create a set or list 'connected_vertices' to keep track of the vertices that have been connected. Simulate the operation of choosing a vertex and adding an edge until all vertices are connected. Use a loop to perform the operation, incrementing 'operations_count' each time an edge is added. Check if the graph is connected after each operation by comparing the size of 'connected_vertices' with N. Calculate the expected number of operations based on the number of edges added and the probability of choosing each vertex. Return the final expected value from the function 'expected_operations'. Format the output to display the expected number of operations as a floating-point number with appropriate precision.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

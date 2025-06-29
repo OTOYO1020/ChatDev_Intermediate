@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the length of the sequence A. Read the sequence of integers A of length N from standard input. Initialize a variable 'sum_squared_differences' to 0 to store the cumulative sum of squared differences. Use a nested loop to iterate through all pairs of indices (i, j) where \(1 \leq j < i \leq N\).\n   - For each pair, calculate the squared difference \((A[i] - A[j])^2\).\n   - Update 'sum_squared_differences' by adding the squared difference. After completing the nested loop, print the value of 'sum_squared_differences'.\n\n### Function and Variable Names:\n- Function to be implemented: 'calculate_sum_squared_differences(N, A)'\n- Variables: 'N', 'A', 'sum_squared_differences', 'i', 'j', 'squared_difference' (for the squared difference calculation). \n\n### Input and Output Format:\n- Input: The first line contains the integer N, followed by N integers representing the sequence A.\n- Output: A single integer representing the sum of squared differences.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,33 @@
+Task:
+Read the integer K from standard input. Initialize a list '321_like_numbers' to store valid 321-like Numbers. Create a function 'is_321_like_number(x)' that checks if a given positive integer x is a 321-like Number:\n   - Convert x to a string to access its digits.\n   - Iterate through the digits and check if they are strictly decreasing. Initialize a variable 'current_number' starting from 1 to find 321-like Numbers. Use a loop to increment 'current_number':\n   - Call 'is_321_like_number(current_number)' to check if it is a 321-like Number.\n   - If true, append 'current_number' to '321_like_numbers'. Continue until the length of '321_like_numbers' is at least K. Retrieve the K-th smallest 321-like Number from '321_like_numbers'. Print the K-th smallest 321-like Number as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

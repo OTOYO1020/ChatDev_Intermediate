@@ -1,0 +1,33 @@
+Task:
+Define the function 'find_minimum_median(N: int, K: int, A: List[List[int]]) -> int' to encapsulate the solution. Parse the input to extract the values of N, K, and the grid A, ensuring to handle the input format correctly. Implement a method to iterate through all possible KxK subgrids within the NxN grid. For each KxK subgrid, extract the heights into a list and sort this list to facilitate median calculation. Calculate the median of the sorted list of heights for each KxK subgrid using the formula for median provided in the problem statement. Keep track of the minimum median found across all KxK subgrids. Return the minimum median found as the output of the function. Ensure that the function handles edge cases, such as the smallest grid size and maximum height values. Write unit tests to validate the correctness of the function with various test cases. Output the result in the specified format after calling the function.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

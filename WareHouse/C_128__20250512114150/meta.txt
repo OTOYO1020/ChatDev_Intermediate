@@ -1,0 +1,33 @@
+Task:
+Define the function signature as 'def count_lighted_bulbs(N: int, M: int, connections: List[Tuple[List[int], int]]) -> int:' where 'connections' is a list of tuples containing the list of switches connected to each bulb and the required parity. Parse the input to extract the values of N and M, and the connections for each bulb. This will involve reading integers and lists from the input. Create a data structure (like a list of tuples) to store the connections for each bulb, where each tuple contains the list of switch indices and the required parity. Implement a function to generate all possible combinations of switch states (on/off) for N switches. This can be done using bit manipulation or itertools. For each combination of switch states, check if all bulbs are lighted according to their respective conditions. This involves counting the 'on' switches for each bulb and checking the parity against 'p_i'. Count the number of valid combinations that light all bulbs. Initialize a counter to keep track of these valid combinations. Return the count of valid combinations from the function 'count_lighted_bulbs'. Ensure that the function handles edge cases, such as when N or M is at its minimum value. Write unit tests to validate the correctness of the function with various inputs, including edge cases. Format the output as an integer representing the number of combinations that light all bulbs.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

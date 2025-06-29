@@ -1,0 +1,3 @@
+
+In the `<dependencies>` section, you can add the required dependencies for your project. For example, if you are using a GUI library like Swing, you can add the following dependency:
+

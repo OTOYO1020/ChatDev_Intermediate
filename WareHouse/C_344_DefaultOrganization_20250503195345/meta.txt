@@ -1,0 +1,33 @@
+Task:
+Read the integers N, M, L, and Q from standard input. Read the sequences A, B, and C of lengths N, M, and L respectively. Read the sequence X of length Q. Initialize a set 'possible_sums' to store all possible sums of one element from A, B, and C. Use three nested loops to iterate through each element in A, B, and C:\n   - For each combination of elements (A[i], B[j], C[k]), compute the sum and add it to 'possible_sums'. For each query X[i] in the sequence X:\n   - Check if X[i] exists in 'possible_sums'.\n   - Store the result as 'YES' if it exists, otherwise 'NO'. Print the results for all queries in order.\n\nThis approach ensures that we efficiently check the sums against the queries after precomputing all possible sums from the sequences A, B, and C.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

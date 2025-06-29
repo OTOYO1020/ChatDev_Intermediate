@@ -1,0 +1,33 @@
+Task:
+Define the function 'max_blue_jewels(N: int, X: int, Y: int) -> int' to calculate the maximum number of blue jewels of level 1. Implement input handling to read integers N, X, and Y from standard input. Check if N is less than 1 or greater than 10, and if so, return 0 as an invalid case. Create a recursive or iterative function to simulate the conversion of red jewels to blue jewels, starting from level N. In the conversion process, ensure that when converting a red jewel of level n, the function adds X blue jewels of level n to the total count. When converting a blue jewel of level n, ensure that the function adds Y blue jewels of level (n-1) to the total count. Keep track of the total number of blue jewels of level 1 obtained through all possible conversions. Implement a base case for the recursion or termination condition for the iteration when reaching level 1. Return the total count of blue jewels of level 1 from the function. Implement output handling to print the result of the maximum number of blue jewels of level 1.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

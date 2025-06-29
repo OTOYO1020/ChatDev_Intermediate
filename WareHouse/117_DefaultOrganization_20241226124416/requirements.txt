@@ -1,0 +1,5 @@
+
+In this example, I've added the dependencies for JavaFX controls and JavaFX FXML, which are required for the GUI components used in the Lead Generation Tracker application. You can modify the dependencies section of the pom.xml file to include any additional dependencies that your project requires.
+
+To build and run the project using Maven, you can use the following commands:
+

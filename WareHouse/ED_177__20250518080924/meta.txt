@@ -1,0 +1,33 @@
+Task:
+Define a function 'is_pairwise_coprime' that takes a list of integers 'A' as input and checks if the integers are pairwise coprime by calculating the GCD for every pair (i, j) where 1 ≤ i < j ≤ N. Define a function 'gcd_of_list' that takes a list of integers 'A' and returns the GCD of the entire list using an iterative approach. Implement input handling to read an integer 'N' and a list of integers 'A' from standard input, ensuring that the constraints 2 ≤ N ≤ 10^6 and 1 ≤ A_i ≤ 10^6 are respected. Call the 'is_pairwise_coprime' function with the list 'A' and store the result in a variable 'pairwise_result'. If 'pairwise_result' is True, print 'pairwise coprime' as the output. If 'pairwise_result' is False, call the 'gcd_of_list' function with the list 'A' and store the result in a variable 'overall_gcd'. Check if 'overall_gcd' is equal to 1; if it is, print 'setwise coprime' as the output. If 'overall_gcd' is not equal to 1, print 'neither' as the output. Ensure that the solution is optimized to handle the upper limits of the input constraints efficiently. Test the implementation with various edge cases to ensure correctness and performance.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

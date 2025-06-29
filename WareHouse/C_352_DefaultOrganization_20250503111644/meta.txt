@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of giants. Read the arrays A and B, where A[i] represents the shoulder height and B[i] represents the head height of giant i. Initialize a variable 'max_height' to store the maximum possible height of the head of the topmost giant. Generate all permutations of the array [1, 2, ..., N] to represent the different stacking orders of the giants. For each permutation P:\n   - Initialize a variable 'current_height' to 0 to track the height of the shoulders of the current giant being placed.\n   - For i from 1 to N:\n     - Update 'current_height' with the shoulder height of the current giant: 'current_height += A[P[i-1]]'.\n     - Calculate the head height of the current giant and update 'max_height' if it exceeds the current maximum: 'max_height = max(max_height, current_height + B[P[i-1]])'. After evaluating all permutations, print the value of 'max_height' as the result.\n\nNote: Given the constraints, generating all permutations is computationally expensive. Consider optimizing this step using a greedy approach or dynamic programming if necessary.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

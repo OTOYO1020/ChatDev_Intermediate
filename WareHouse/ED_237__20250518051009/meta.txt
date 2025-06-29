@@ -1,0 +1,33 @@
+Task:
+Define the function 'max_happiness(N: int, M: int, H: List[int], slopes: List[Tuple[int, int]])' to accept the number of spaces N, the number of slopes M, the list of altitudes H, and the list of slopes connecting spaces. Parse the input to extract N, M, H, and slopes from the provided format. Create a graph representation of the slopes using an adjacency list to facilitate traversal between spaces. Implement a function to calculate the happiness change when moving from one space to another based on their altitudes. Use a traversal algorithm (like DFS or BFS) to explore all possible paths from Space 1 to all other spaces, keeping track of the maximum happiness encountered. Initialize a variable to keep track of the current happiness, starting at 0, and update it according to the happiness change function during traversal. Ensure that the traversal accounts for all slopes and does not revisit spaces to avoid infinite loops. Store the maximum happiness value found during the traversal in a variable. Return the maximum happiness value after exploring all possible paths. Output the result in the specified format.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

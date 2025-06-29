@@ -1,0 +1,33 @@
+Task:
+Define the function 'expected_position(N: int, K: int) -> int' to calculate the expected position of the black ball after K operations. Implement input handling to read integers N and K from standard input. Initialize a variable to store the expected position of the black ball, starting at position 1 (the leftmost position). Simulate K operations where for each operation, randomly select two distinct integers a and b between 1 and N. For each selected pair (a, b), swap the positions of the balls at indices a and b. After K operations, calculate the expected position of the black ball based on the number of times it has been at each position. Reduce the expected position to an irreducible fraction P/Q. Compute R such that R * Q ≡ P (mod 998244353) using modular arithmetic. Ensure that the output is within the range 0 ≤ R < 998244353. Print the result R as the final output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

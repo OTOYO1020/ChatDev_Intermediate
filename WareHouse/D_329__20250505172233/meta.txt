@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, representing the number of candidates and the number of votes, respectively. Read the array A of length M, which contains the votes for each candidate. Initialize an array 'vote_count' of size N to keep track of the number of votes for each candidate. Initialize variables 'current_winner' and 'max_votes' to track the candidate with the most votes and the maximum number of votes. Loop through the votes from 1 to M:\n   - For each vote A[i], increment the corresponding index in 'vote_count'.\n   - Check if the current candidate has more votes than 'max_votes':\n     - If true, update 'current_winner' to A[i] and 'max_votes' to the new vote count.\n     - If the vote count equals 'max_votes', update 'current_winner' to the smaller candidate number if A[i] is smaller.\n   - Print the 'current_winner' after each vote is counted. Ensure that the solution handles the constraints efficiently, considering the maximum values for N and M. Output the current winner after each vote is counted in the specified format.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  * Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

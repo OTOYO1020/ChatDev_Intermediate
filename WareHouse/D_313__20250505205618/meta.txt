@@ -1,0 +1,33 @@
+Task:
+Read integers N and K from standard input. Validate that K is an odd number and that 1 ≤ K < N ≤ 1000. Initialize an empty list 'A' of length N to store the determined values of the sequence. Initialize a counter 'query_count' to track the number of queries made. While 'query_count' is less than N:\n   - Select K distinct integers 'x_1, x_2, ..., x_K' from the range [1, N].\n   - Print the query in the format '? x_1 x_2 ... x_K' to standard output.\n   - Flush the output to ensure the judge receives the query. Read the response 'T' from standard input:\n   - If T is -1, terminate the program immediately as it indicates an invalid query.\n   - If T is 0 or 1, update the parity information based on the response. Use the responses to deduce the values of the sequence A:\n   - Implement logic to determine the values of A based on the parity responses received. Once all elements of A are determined, print the result in the format '! A_1 A_2 ... A_N' to standard output. Ensure to flush the output after printing the final result to avoid any potential TLE. Terminate the program immediately after printing the answer to ensure correct verdict.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

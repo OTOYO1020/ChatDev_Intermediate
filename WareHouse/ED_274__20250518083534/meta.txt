@@ -1,0 +1,33 @@
+Task:
+Define the function 'calculate_shortest_time(N: int, M: int, towns: List[Tuple[int, int]], chests: List[Tuple[int, int]]) -> float' to handle the input parameters for the number of towns and chests, and their respective coordinates. Implement a method to calculate the Euclidean distance between two points in the 2D plane, which will be used to determine the distance between the origin, towns, and chests. Create a function to generate all possible permutations of the towns to explore all routes Takahashi can take during his trip. For each permutation of towns, implement logic to calculate the total travel time considering the distances and the effect of picking up accelerators from chests. Incorporate the logic to decide whether to visit each chest based on the current speed and the potential time savings from picking up accelerators. Calculate the total time for each route and keep track of the minimum time encountered during the iterations. Ensure that the function can handle cases where there are no chests (M = 0) and still compute the shortest time based solely on the towns. Implement input handling to read the values of N, M, and the coordinates of towns and chests from standard input. Ensure that the output of the function is formatted to return the shortest time as a floating-point number with appropriate precision. Test the function with various test cases to validate the correctness of the implementation and handle edge cases.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -198,7 +198,41 @@ class CodeCompleteAll(ComposedPhase):
             return True
         else:
             return False
+class CodeCompleteAll_2(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
+class CodeCompleteAll_3(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_4(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_5(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_6(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_7(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_8(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_9(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeCompleteAll_10(CodeCompleteAll):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
 class CodeReview(ComposedPhase):
     def __init__(self, **kwargs):
@@ -215,6 +249,46 @@ class CodeReview(ComposedPhase):
             return True
         else:
             return False
+
+class CodeReview_1(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_2(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_3(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_4(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_5(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_6(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_7(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_8(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_9(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class CodeReview_10(CodeReview):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
 
 class HumanAgentInteraction(ComposedPhase):
@@ -250,3 +324,43 @@ class Test(ComposedPhase):
             return True
         else:
             return False
+
+class Test_1(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_2(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_3(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_4(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_5(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_6(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_7(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_8(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_9(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+class Test_10(Test):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)

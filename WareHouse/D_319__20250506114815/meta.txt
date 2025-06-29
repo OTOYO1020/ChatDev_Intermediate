@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, representing the number of words and the maximum number of lines allowed. Read an array L of length N, where each element L[i] represents the width of the i-th word. Define a function 'can_fit_in_window(width)' that checks if the words can fit within the specified window width while adhering to the line constraints. In 'can_fit_in_window(width)', initialize variables to track the current line width and the number of lines used. Iterate through each word in the array L:\n   - If adding the current word (with a space if not the first word) exceeds the window width, increment the line count and reset the current line width to the current word's width.\n   - If the line count exceeds M at any point, return False. Use binary search to determine the minimum possible width of the window:\n   - Set the search range from the maximum width of a single word to the sum of all word widths plus (N-1) for spaces. For each midpoint width in the binary search, call 'can_fit_in_window(mid)' to check if the words fit within that width. Adjust the binary search range based on the result of 'can_fit_in_window(mid)'. Once the binary search completes, the minimum width found will be the answer. Print the minimum width of the window.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+35.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

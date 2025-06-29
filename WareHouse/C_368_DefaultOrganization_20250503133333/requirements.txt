@@ -1,0 +1,3 @@
+
+If you want to prepare for future expansions or enhancements that may require common libraries, you could include some commonly used libraries. Here’s an example of a `requirements.txt` file that includes a couple of libraries that could be useful for similar projects:
+

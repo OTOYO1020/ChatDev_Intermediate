@@ -1,0 +1,33 @@
+Task:
+Define the function 'max_gcd_with_k_elements(A: List[int], K: int) -> List[int]' to handle the input sequence and the integer K. Parse the input to extract the sequence A and the integer K. Implement a loop to iterate over each element A[i] in the sequence A. For each A[i], generate a list of K elements that includes A[i]. Calculate the GCD of the selected K elements for each combination that includes A[i]. Store the maximum GCD found for each A[i] in a results list. Optimize the GCD calculation to handle the constraints efficiently, considering the maximum values for N and A[i]. Return the results list containing the maximum GCD for each A[i]. Ensure that the function handles edge cases, such as when K equals 1 or when all elements are the same. Format the output as a list of integers representing the maximum GCDs for each A[i].
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

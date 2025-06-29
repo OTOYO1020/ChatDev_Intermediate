@@ -8,10 +8,10 @@ from datetime import datetime
 
 from camel.agents import RolePlaying
 from camel.configs import ChatGPTConfig
-from camel.typing import TaskType, ModelType
+from camel.typing import ModelType, TaskType
+from camel.web_spider import modal_trans
 from chatdev.chat_env import ChatEnv, ChatEnvConfig
 from chatdev.statistics import get_info
-from camel.web_spider import modal_trans
 from chatdev.utils import log_visualize, now
 
 
@@ -26,9 +26,19 @@ class ChatChain:
                  config_phase_path: str = None,
                  config_role_path: str = None,
                  task_prompt: str = None,
+                 subtask1: str = None,
+                 subtask2: str = None,
+                 subtask3: str = None,
+                 subtask4: str = None,
+                 subtask5: str = None,
+                 subtask6: str = None,
+                 subtask7: str = None,
+                 subtask8: str = None,
+                 subtask9: str = None,
+                 subtask10: str = None,
                  project_name: str = None,
                  org_name: str = None,
-                 model_type: ModelType = ModelType.GPT_3_5_TURBO,
+                 model_type: ModelType = ModelType.GPT_4O_MINI,
                  code_path: str = None) -> None:
         """
 
@@ -49,6 +59,16 @@ class ChatChain:
         self.org_name = org_name
         self.model_type = model_type
         self.code_path = code_path
+        self.subtask1 = subtask1 if subtask1 else None
+        self.subtask2 = subtask2 if subtask2 else None
+        self.subtask3 = subtask3 if subtask3 else None
+        self.subtask4 = subtask4 if subtask4 else None
+        self.subtask5 = subtask5 if subtask5 else None
+        self.subtask6 = subtask6 if subtask6 else None
+        self.subtask7 = subtask7 if subtask7 else None
+        self.subtask8 = subtask8 if subtask8 else None
+        self.subtask9 = subtask9 if subtask9 else None
+        self.subtask10 = subtask10 if subtask10 else None
 
         with open(self.config_path, 'r', encoding="utf8") as file:
             self.config = json.load(file)
@@ -345,6 +365,9 @@ then you should return a message in a format like \"<INFO> revised_version_of_th
             assistant_role_name="Prompt Engineer",
             assistant_role_prompt="You are an professional prompt engineer that can improve user input prompt to make LLM better understand these prompts.",
             user_role_prompt="You are an user that want to use LLM to build software.",
+            subtask1=placeholders.get("subtask1", "Default subtask details"),
+            subtask2=placeholders.get("subtask2", "Default subtask details"),
+            subtask3=placeholders.get("subtask3", "Default subtask details"),
             user_role_name="User",
             task_type=TaskType.CHATDEV,
             task_prompt="Do prompt engineering on user query",

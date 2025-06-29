@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, representing the number of players and the number of problems, respectively. Read the scores of the problems into an array 'A' of length M, ensuring each score is a multiple of 100 and falls within the range of 500 to 2500. Initialize an array 'total_scores' of length N to store the total score for each player. For each player 'i' from 1 to N:\n   - Read the string 'S_i' indicating which problems player 'i' has solved.\n   - Calculate the total score for player 'i' by summing the scores of the problems they have solved (where 'S_i[j]' is 'o') and adding a bonus score of 'i'. For each player 'i', determine the maximum score among all other players (excluding player 'i'). For each player 'i', calculate the number of additional problems they need to solve to exceed the maximum score of the other players:\n   - Create a list of unsolved problems (where 'S_i[j]' is 'x') and sort them in descending order based on their scores.\n   - Initialize a counter for the number of problems solved and a variable to track the cumulative score.\n   - Iterate through the sorted list of unsolved problems, adding their scores to the cumulative score until it exceeds the maximum score of the other players. Store the result for each player 'i' which is the number of additional problems they need to solve. Print the results for all players, each on a new line.\n\nIn this implementation, the function to handle the main logic could be named 'calculate_min_problems_to_solve(N, M, A, S)', where 'N', 'M', 'A', and 'S' are the inputs as described. The output format will be a list of integers, each representing the minimum number of additional problems each player must solve to exceed the scores of all other players.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,33 @@
+Task:
+Read the positive integer \( N \) from standard input. Initialize a variable \( k = 0 \) to keep track of the maximum integer. Use a loop to find the largest \( k \) such that \( 2^k \leq N \):\n   - Start with \( k = 0 \) and compute \( 2^k \).\n   - Increment \( k \) until \( 2^k \) exceeds \( N \). Once the loop ends, decrement \( k \) by 1 to get the maximum valid \( k \). Print the value of \( k \).\n\nThis approach ensures that we efficiently find the maximum \( k \) without exceeding the constraints provided.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

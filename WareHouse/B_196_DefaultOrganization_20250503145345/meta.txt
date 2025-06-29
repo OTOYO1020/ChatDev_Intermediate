@@ -1,0 +1,33 @@
+Task:
+Receive the input value \( X \) as a string from standard input. Validate that \( X \) is a valid number (either an integer or a decimal) and does not contain unnecessary leading zeros. Check if \( X \) contains a decimal point:\n   - If it does, split \( X \) into the integer part and the decimal part.\n   - If it does not, treat \( X \) as an integer. Convert the integer part of \( X \) to an integer type. Round down the value by discarding the decimal part if it exists. Store the result of the rounding operation. Prepare the output format to ensure it is a valid integer representation. Print the final rounded down result.\n\nFunction to call: 'round_down(X)' where \( X \) is the input string. \n\nOutput format: The output should be a single integer value representing the rounded down result.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

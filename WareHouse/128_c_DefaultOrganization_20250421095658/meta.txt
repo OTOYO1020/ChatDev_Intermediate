@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input. Initialize a list to store the connections of each bulb to the switches. For each bulb (from 1 to M):Read the number of connected switches \( k_i \),Read the \( k_i \) switch indices and store them in the list,Read the required parity \( p_i \) for the bulb. Generate all possible combinations of on and off states for the N switches (total \( 2^N \) combinations). For each combination of switch states: Initialize a counter for each bulb to track the number of on switches. For each bulb, check the states of its connected switches and count how many are on. Check if the count of on switches matches the required parity \( p_i \). Count the number of combinations that light all bulbs. Print the total count of valid combinations.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

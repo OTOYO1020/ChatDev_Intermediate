@@ -1,0 +1,33 @@
+Task:
+Define a function 'minimum_absolute_coordinate(X: int, K: int, D: int) -> int' to calculate the minimum possible absolute value of the destination coordinate. Handle the input format by reading three integers from standard input: X, K, and D. Check if K is greater than or equal to the absolute value of X divided by D. If true, return the minimum possible absolute value as 'abs(X) % D'. If K is less than the absolute value of X divided by D, calculate the new position after K moves by determining the direction of the moves. Calculate the remaining distance after making K moves towards the closest point to zero, which is 'abs(X) - K * D'. Determine if the remaining distance is even or odd to decide the final position after K moves. If the remaining distance is even, the final position will be 'abs(X) % D'. If the remaining distance is odd, the final position will be 'abs(X) % D + D' or 'abs(X) % D - D' depending on which is closer to zero. Return the final calculated minimum absolute value as the output of the function. Print the output in the required format after calling the function with the input values.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python> *
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

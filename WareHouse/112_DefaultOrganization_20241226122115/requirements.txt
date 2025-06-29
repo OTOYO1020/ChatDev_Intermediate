@@ -1,0 +1,5 @@
+
+You can add other dependencies based on your project requirements, such as a web framework like Spring Boot or a database ORM like Hibernate.
+
+To build and manage the project dependencies using Maven, you can run the following command in the project directory:
+

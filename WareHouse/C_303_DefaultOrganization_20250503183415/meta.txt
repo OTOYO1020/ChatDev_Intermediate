@@ -1,0 +1,33 @@
+Task:
+Read integers N, M, H, K from standard input. Read the string S of length N from standard input. Read M pairs of integers (x_i, y_i) representing the coordinates of health recovery items and store them in a set for quick access. Initialize Takahashi's current position at (0, 0) and set his current health to H. Iterate through each character S_i in the string S:\n   - Decrease Takahashi's health by 1 for each move.\n   - Update Takahashi's position based on the direction indicated by S_i:\n     - If S_i is 'R', move to (x+1, y).\n     - If S_i is 'L', move to (x-1, y).\n     - If S_i is 'U', move to (x, y+1).\n     - If S_i is 'D', move to (x, y-1). After each move, check if Takahashi's health is negative:\n   - If yes, print NO and terminate. If Takahashi's health is non-negative and he moves to a position with a health item (x_i, y_i), check if his health is strictly less than K:\n   - If yes, set his health to K. After completing all moves, if Takahashi's health is non-negative, print YES. Ensure to handle edge cases such as moving out of bounds or encountering health items at the starting position.\n\nThis breakdown provides a clear sequence of tasks to implement the solution based on the problem statement.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

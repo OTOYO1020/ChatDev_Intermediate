@@ -1,0 +1,33 @@
+Task:
+Define the function 'perform_operations(S: str, operations: List[Tuple[str, str]]) -> str' to handle the main logic of the problem. Parse the input to read the string 'S' and the integer 'N' which represents the length of the string. Read the integer 'Q' which indicates the number of operations to perform on the string. Create a list of tuples 'operations' to store each operation as pairs '(c_i, d_i)'. Iterate through the range of 'Q' to read each operation and append it to the 'operations' list. For each operation '(c_i, d_i)' in 'operations', replace all occurrences of 'c_i' in 'S' with 'd_i'. Ensure that the replacements are done in a way that multiple operations can be applied sequentially without interference. Return the modified string 'S' after all operations have been applied. Handle edge cases where 'S' might not contain characters that need to be replaced. Print the final result of the string 'S' after all operations are completed.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

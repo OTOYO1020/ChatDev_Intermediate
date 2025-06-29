@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, representing the number of contests. Read the array P of length N, containing the performance values P_i for each contest. Initialize a variable 'max_rating' to store the maximum rating found, starting from a very low value. Iterate over all possible subsets of contests (from 1 to N):\n   - For each subset, calculate the number of chosen contests 'k'.\n   - Extract the performances Q from the chosen contests in the order they were participated. Compute the rating R using the formula:\n   - \( R = \frac{\sum_{i=1}^k (0.9)^{k-i}Q_i}{\sum_{i=1}^k (0.9)^{k-i}} - \frac{1200}{\sqrt{k}} \) Update 'max_rating' if the computed rating R is greater than the current 'max_rating'. Ensure that at least one contest is chosen in each subset. After evaluating all subsets, print the value of 'max_rating' as the result. Handle edge cases where N is 1 by directly returning the performance of the single contest. Ensure that the performance values are integers and fall within the specified constraints.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,3 @@
+
+In the `<dependencies>` section, you can add the required dependencies for the Battle Squad project. For example, if your project requires a GUI library like Swing, you can add the following dependency:
+

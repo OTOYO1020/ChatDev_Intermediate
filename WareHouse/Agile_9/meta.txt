@@ -1,0 +1,33 @@
+Task:
+Develop a hit and blow game that randomly generates three-digit numbers with different digits and predicts the number. The user inputs a three-digit number, and if both the number and the digit position are the same, it is a hit, and if only the number is the same but the digit position is different, it is a blow, and output the number. The number of times the user can try (life) is set to seven, and the number of remaining lives is displayed. If the user answers correctly halfway through, end the game as if they answered correctly. If the input numbers contain the same digit or a number other than three digits is entered, it is considered an incorrect input and the user is asked to enter it again. In addition, do not reduce the number of lives in that case.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+19.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

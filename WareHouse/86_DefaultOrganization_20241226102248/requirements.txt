@@ -1,0 +1,5 @@
+
+In the `<dependencies>` section, you can add the dependencies required for the BudgetEnforcer application. Replace the comments with the actual dependencies you need.
+
+For example, if you need to use a library like Apache Commons IO, you can add the following dependency:
+

@@ -1,0 +1,5 @@
+
+In this example, I have included two dependencies: `javax.swing-api` and `commons-lang3`. These dependencies are required for the GUI components and utility functions used in the BudgetSaver application. You can add more dependencies as needed for your specific implementation.
+
+To use Maven, you need to have Maven installed on your system. Once installed, navigate to the project directory in the command line and run the following command:
+

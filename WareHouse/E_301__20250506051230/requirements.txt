@@ -1,0 +1,7 @@
+
+This indicates that the project does not require any additional packages beyond the standard Python library. 
+
+If you want to keep it open for future scalability or potential additions, you could also include a comment suggesting common libraries that might be used later, but for now, the first version is sufficient. 
+
+If you anticipate that the project might grow and require additional libraries in the future, you can also include common libraries that are often used in Python projects, such as:
+

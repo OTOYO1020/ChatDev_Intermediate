@@ -1,0 +1,33 @@
+Task:
+Define a function 'count_numbers_with_n_divisors(N: int, d: int) -> int' that takes an integer N and the number of divisors d (which is 9 in this case) as input. Implement a method to calculate the number of positive integers not greater than N that have exactly 9 positive divisors. Identify the mathematical properties of numbers with exactly 9 divisors, which can be either of the form p^8 or p^2 * q^2, where p and q are distinct prime numbers. Create a helper function 'is_prime(num: int) -> bool' to check if a number is prime, which will be used to find prime numbers up to a certain limit. Determine the upper limit for prime numbers needed to generate numbers with exactly 9 divisors based on the value of N. Generate a list of prime numbers up to the calculated upper limit using the Sieve of Eratosthenes algorithm. Count the valid integers of the form p^8 that are less than or equal to N. Count the valid integers of the form p^2 * q^2 that are less than or equal to N, ensuring p and q are distinct primes. Sum the counts from subtask 7 and subtask 8 to get the total count of integers with exactly 9 divisors. Return the result as an integer from the function 'count_numbers_with_n_divisors'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ <Python> *
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

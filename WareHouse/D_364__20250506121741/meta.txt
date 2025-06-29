@@ -1,0 +1,33 @@
+Task:
+Read integers N and Q from standard input, followed by N integers representing coordinates \( A_1, A_2, \ldots, A_N \) and Q integers representing coordinates \( B_1, B_2, \ldots, B_Q \). Initialize an empty list 'distances' to store the distances between points \( A_i \) and \( B_j \). For each \( j \) from 1 to Q:\n   - Initialize an empty list 'd' to store distances for the current \( B_j \).\n   - For each \( i \) from 1 to N:\n     - Calculate the distance \( d_i = |A_i - B_j| \) and append it to the list 'd'.\n   - Sort the list 'd' in ascending order.\n   - Retrieve the \( k_j \)-th closest distance \( d_{k_j}' \) from the sorted list 'd'. Store the result \( d_{k_j}' \) for each query \( j \). Print all results for each \( j \) in order.\n\n### Function and Variable Names:\n- Function to calculate distance: 'calculate_distance(A, B)'\n- Variable names: 'N', 'Q', 'A', 'B', 'distances', 'd', 'd_i', 'k_j', 'd_{k_j}''.\n\n### Input Format:\n- The input consists of integers N and Q followed by N integers for points \( A \) and Q integers for points \( B \).\n\n### Output Format:\n- The output will be a list of distances \( d_{k_j}' \) for each query \( j \), printed line by line.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

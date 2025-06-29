@@ -87,6 +87,11 @@ class Phase(ABC):
 
         if placeholders is None:
             placeholders = {}
+        
+        placeholders.setdefault("subtask1", "Default subtask details")
+        placeholders.setdefault("subtask2", "Default subtask details")
+        placeholders.setdefault("subtask3", "Default subtask details")
+
         assert 1 <= chat_turn_limit <= 100
 
         if not chat_env.exist_employee(assistant_role_name):
@@ -402,7 +407,35 @@ class ArtIntegration(Phase):
         log_visualize(
             "**[Software Info]**:\n\n {}".format(get_info(chat_env.env_dict['directory'], self.log_filepath)))
         return chat_env
+class CodeCompleteAll(Phase):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
 
+    def update_phase_env(self, chat_env):
+        self.phase_env.update({"task": chat_env.env_dict['task_prompt'],
+                               "modality": chat_env.env_dict['modality'],
+                               "ideas": chat_env.env_dict['ideas'],
+                               "language": chat_env.env_dict['language'],
+                               "codes": chat_env.get_codes(),
+                               "unimplemented_file": ""})
+        unimplemented_file = ""
+        for filename in self.phase_env['pyfiles']:
+            code_content = open(os.path.join(chat_env.env_dict['directory'], filename)).read()
+            lines = [line.strip() for line in code_content.split("\n") if line.strip() == "pass"]
+            if len(lines) > 0 and self.phase_env['num_tried'][filename] < self.phase_env['max_num_implement']:
+                unimplemented_file = filename
+                break
+        self.phase_env['num_tried'][unimplemented_file] += 1
+        self.phase_env['unimplemented_file'] = unimplemented_file
+
+    def update_chat_env(self, chat_env) -> ChatEnv:
+        chat_env.update_codes(self.seminar_conclusion)
+        if len(chat_env.codes.codebooks.keys()) == 0:
+            raise ValueError("No Valid Codes.")
+        chat_env.rewrite_codes("Code Complete #" + str(self.phase_env["cycle_index"]) + " Finished")
+        log_visualize(
+            "**[Software Info]**:\n\n {}".format(get_info(chat_env.env_dict['directory'], self.log_filepath)))
+        return chat_env
 
 class CodeComplete(Phase):
     def __init__(self, **kwargs):
@@ -434,6 +467,65 @@ class CodeComplete(Phase):
             "**[Software Info]**:\n\n {}".format(get_info(chat_env.env_dict['directory'], self.log_filepath)))
         return chat_env
 
+class CodeComplete_2(Phase):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+    def update_phase_env(self, chat_env):
+        self.phase_env.update({"task": chat_env.env_dict['task_prompt'],
+                               "modality": chat_env.env_dict['modality'],
+                               "ideas": chat_env.env_dict['ideas'],
+                               "language": chat_env.env_dict['language'],
+                               "codes": chat_env.get_codes(),
+                               "unimplemented_file": ""})
+        unimplemented_file = ""
+        for filename in self.phase_env['pyfiles']:
+            code_content = open(os.path.join(chat_env.env_dict['directory'], filename)).read()
+            lines = [line.strip() for line in code_content.split("\n") if line.strip() == "pass"]
+            if len(lines) > 0 and self.phase_env['num_tried'][filename] < self.phase_env['max_num_implement']:
+                unimplemented_file = filename
+                break
+        self.phase_env['num_tried'][unimplemented_file] += 1
+        self.phase_env['unimplemented_file'] = unimplemented_file
+
+    def update_chat_env(self, chat_env) -> ChatEnv:
+        chat_env.update_codes(self.seminar_conclusion)
+        if len(chat_env.codes.codebooks.keys()) == 0:
+            raise ValueError("No Valid Codes.")
+        chat_env.rewrite_codes("Code Complete #" + str(self.phase_env["cycle_index"]) + " Finished")
+        log_visualize(
+            "**[Software Info]**:\n\n {}".format(get_info(chat_env.env_dict['directory'], self.log_filepath)))
+        return chat_env
+
+class CodeComplete_3(Phase):
+    def __init__(self, **kwargs):
+        super().__init__(**kwargs)
+
+    def update_phase_env(self, chat_env):
+        self.phase_env.update({"task": chat_env.env_dict['task_prompt'],
+                               "modality": chat_env.env_dict['modality'],
+                               "ideas": chat_env.env_dict['ideas'],
+                               "language": chat_env.env_dict['language'],
+                               "codes": chat_env.get_codes(),
+                               "unimplemented_file": ""})
+        unimplemented_file = ""
+        for filename in self.phase_env['pyfiles']:
+            code_content = open(os.path.join(chat_env.env_dict['directory'], filename)).read()
+            lines = [line.strip() for line in code_content.split("\n") if line.strip() == "pass"]
+            if len(lines) > 0 and self.phase_env['num_tried'][filename] < self.phase_env['max_num_implement']:
+                unimplemented_file = filename
+                break
+        self.phase_env['num_tried'][unimplemented_file] += 1
+        self.phase_env['unimplemented_file'] = unimplemented_file
+
+    def update_chat_env(self, chat_env) -> ChatEnv:
+        chat_env.update_codes(self.seminar_conclusion)
+        if len(chat_env.codes.codebooks.keys()) == 0:
+            raise ValueError("No Valid Codes.")
+        chat_env.rewrite_codes("Code Complete #" + str(self.phase_env["cycle_index"]) + " Finished")
+        log_visualize(
+            "**[Software Info]**:\n\n {}".format(get_info(chat_env.env_dict['directory'], self.log_filepath)))
+        return chat_env
 
 class CodeReviewComment(Phase):
     def __init__(self, **kwargs):

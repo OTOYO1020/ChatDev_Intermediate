@@ -1,0 +1,33 @@
+Task:
+Define the function 'count_painting_ways(N: int, M: int, K: int, edges: List[Tuple[int, int]]) -> int' to handle the input parameters where N is the number of vertices, M is the number of edges, K is the number of vertices to be painted red, and edges is a list of tuples representing the edges between vertices. Parse the input to extract the values of N, M, K, and the list of edges (U_i, V_i) from the input format. Validate the constraints to ensure that 2 <= N <= 200000, 1 <= M <= 200000, 0 <= K <= N, and that the edges are valid and unique. Implement a method to calculate the total number of ways to choose K vertices from N vertices, using combinatorial mathematics (n choose k). Create a representation of the graph using an adjacency list or matrix to facilitate traversal and edge counting. Implement a function to count the number of edges connecting vertices of different colors for a given painting configuration. Iterate through all possible combinations of painting K vertices red and the remaining (N-K) vertices blue, ensuring to check the edge conditions. Count the valid configurations where the number of edges connecting differently colored vertices is even. Apply the modulo operation with 998244353 to the final count of valid configurations to ensure the result fits within the required limits. Return the final count as the output of the function in the specified output format.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

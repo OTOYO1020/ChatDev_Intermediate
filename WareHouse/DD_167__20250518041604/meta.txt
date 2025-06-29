@@ -1,0 +1,33 @@
+Task:
+Define the function 'find_final_town(N: int, A: List[int], K: int) -> int' to encapsulate the logic for determining the final town. Parse the input to extract the values of N, the list A of teleport destinations, and K. Implement a mechanism to track the current town starting from Town 1. Create a loop to simulate the teleportation process K times, ensuring to handle large values of K efficiently. Utilize a mapping or array to store previously visited towns to detect cycles in the teleportation path. If a cycle is detected, calculate the effective number of teleportations needed to determine the final town. Return the final town number after K teleportations as the output of the function. Ensure that the function handles edge cases, such as when K is very large compared to N. Write test cases to validate the function against the constraints provided in the problem statement. Format the output as an integer representing the final town number after K teleportations.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

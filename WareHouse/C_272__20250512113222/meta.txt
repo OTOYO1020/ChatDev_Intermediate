@@ -1,0 +1,33 @@
+Task:
+Define a function 'find_max_even_sum(A: List[int]) -> int' that takes a list of distinct non-negative integers as input. Implement input handling to read the integer N and the list A from standard input. Check if the length of A is less than 2; if so, return -1 as it's impossible to form a sum with fewer than two elements. Create a set to store the elements of A for O(1) average time complexity when checking for pairs. Iterate through each element 'A[i]' in A and for each element, check if there exists another element 'A[j]' such that 'A[i] + A[j]' is even and 'i != j'. To check if 'A[i] + A[j]' is even, ensure that both 'A[i]' and 'A[j]' are either even or odd. If a valid pair is found, calculate the sum and keep track of the maximum even sum found so far. After checking all pairs, if a maximum even sum was found, return that value; otherwise, return -1. Ensure that the function handles edge cases such as when all elements are odd or all are even. Output the result of the function in the specified format, either the maximum even sum or -1.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python> *
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

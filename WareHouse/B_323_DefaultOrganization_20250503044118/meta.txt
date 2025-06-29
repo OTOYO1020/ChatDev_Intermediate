@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, which represents the number of players. Initialize a list 'results' to store the win counts for each player. For each player i from 1 to N:\n   - Read the string 'S_i' from standard input, which contains the match results for player i.\n   - Count the number of wins (character 'o') in 'S_i' and store it in 'results[i-1]'. Create a list of tuples 'players' where each tuple contains (win_count, player_number) for each player. Sort the 'players' list in descending order by win_count and then by player_number in ascending order. Extract the sorted player numbers from the 'players' list into a new list 'ranked_players'. Print the 'ranked_players' list as the final output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

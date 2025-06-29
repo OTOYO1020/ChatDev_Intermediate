@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Customer Complaint Management System</title>
+</head>
+<body>
+    <h1>Welcome to the Customer Complaint Management System</h1>
+    <p th:text="${message}"></p>
+    <form action="/complaints" method="post">
+        <label for="description">Description:</label><br>
+        <textarea id="description" name="description" rows="4" cols="50"></textarea><br>
+        <label for="severity">Severity:</label>
+        <select id="severity" name="severity">
+            <option value="LOW">Low</option>
+            <option value="MEDIUM">Medium</option>
+            <option value="HIGH">High</option>
+        </select><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>

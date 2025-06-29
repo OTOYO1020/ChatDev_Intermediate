@@ -1,0 +1,33 @@
+Task:
+Define a function 'min_lunch_break(N: int, K: List[int]) -> int' to encapsulate the logic for solving the problem. Parse the input to extract the number of departments 'N' and the list of department sizes 'K'. Implement a method to generate all possible ways to divide the departments into two groups, A and B. For each division of departments, calculate the total number of people in Group A and Group B. Determine the maximum number of people taking lunch at the same time for each division. Keep track of the minimum value of the maximum lunch break sizes across all divisions. Ensure that the function handles edge cases, such as the smallest and largest values for 'N' and 'K_i'. Optimize the solution to ensure it runs efficiently within the provided constraints. Test the function with various test cases to validate correctness and performance. Return the minimum possible value of the maximum number of people taking a lunch break at the same time as the output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+website
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

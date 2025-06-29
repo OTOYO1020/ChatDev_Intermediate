@@ -1,0 +1,33 @@
+Task:
+Define the function find_directed_cycle(N: int, A: List[int]) to accept the number of vertices N and the list of edges A. Initialize a list to keep track of visited vertices to avoid revisiting them during the cycle search. Iterate through each vertex from 1 to N to start searching for a cycle. For each vertex, follow the directed edges according to the list A until a cycle is detected or all reachable vertices are visited. Use a set to keep track of the current path of vertices to identify when a cycle is formed. Check if the current vertex being visited is already in the current path set to confirm a cycle. Once a cycle is detected, construct the cycle path from the current path set. Ensure that the cycle path meets the conditions of having at least 2 vertices and no repeated vertices. Return the cycle path as a list of vertices that form the directed cycle. Output the result in the format specified, ensuring it adheres to the problem's output requirements.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

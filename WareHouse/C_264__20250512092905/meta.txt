@@ -1,0 +1,33 @@
+Task:
+Define the function 'canTransformMatrix(A: List[List[int]], B: List[List[int]]) -> bool' to determine if matrix A can be transformed into matrix B. Implement input handling to read the dimensions H1, W1 for matrix A and H2, W2 for matrix B. Read the elements of matrix A from input and store them in a 2D list 'A'. Read the elements of matrix B from input and store them in a 2D list 'B'. Check if the dimensions of matrix B are less than or equal to those of matrix A. Create a function to generate all possible submatrices of A by removing rows and columns. For each generated submatrix of A, check if it matches matrix B. Return True if any submatrix matches B, otherwise return False. Implement output handling to print 'Yes' if transformation is possible, otherwise print 'No'. Ensure all edge cases are handled, including when A is already equal to B.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python>
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

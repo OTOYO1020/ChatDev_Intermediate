@@ -1,0 +1,33 @@
+Task:
+Read integers H, W, and M from standard input, representing the grid dimensions and the number of operations. Initialize a grid of size H x W with all cells painted with color 0. For each operation from 1 to M, read the values T_i, A_i, and X_i:\n   - If T_i = 1, repaint all cells in the A_i-th row with color X_i.\n   - If T_i = 2, repaint all cells in the A_i-th column with color X_i. Maintain a dictionary or array to keep track of the last color applied to each row and column. After processing all operations, iterate through the grid to count the number of cells painted with each color. Use a dictionary to store the counts of each color. Print the counts of each color that exists on the grid in ascending order of color.\n\n### Function and Variable Names:\n- Function: 'count_colors(H, W, M, operations)'\n- Variables: 'grid', 'color_count', 'operations' (list of tuples containing T_i, A_i, X_i)\n\n### Input Format:\n- The input will be read from standard input as a single block, and parsed into integers H, W, M, and a list of operations.\n\n### Output Format:\n- The output will be printed as a list of counts for each color that exists on the grid, in ascending order of color.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

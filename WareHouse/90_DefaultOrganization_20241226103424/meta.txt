@@ -1,0 +1,33 @@
+Task:
+Please develop in Java. BudgetAssistant is a budgeting software application that helps individuals effectively manage their finances by providing personalized budgeting recommendations based on their spending patterns and financial goals. It allows users to input their income and expenses, categorize them, and set budget goals. The software analyzes the data to identify areas of overspending and provides suggestions for optimizing budgets and increasing savings. With its user-friendly interface and intelligent recommendations, BudgetAssistant empowers individuals to make informed financial decisions and achieve their financial goals.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+web application
+
+Ideas:
+
+
+Language:
+ Java
+
+Code_Version:
+19.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

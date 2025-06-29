@@ -1,0 +1,1 @@
+With this change, the `start()` method will properly override the method in the superclass and the GUI will be displayed when the application is run.

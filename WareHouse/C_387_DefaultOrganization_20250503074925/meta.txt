@@ -1,0 +1,33 @@
+Task:
+Read the integers L and R from standard input. Initialize a counter variable 'snake_count' to 0 to keep track of the number of Snake numbers. Loop through each integer 'num' from L to R (inclusive). For each 'num', convert it to a string to access its digits. Identify the most significant digit (first character of the string) and convert it to an integer 'top_digit'. Initialize a boolean variable 'is_snake' to True. Loop through the remaining digits of 'num':\n   - If any digit is greater than or equal to 'top_digit', set 'is_snake' to False and break the loop. If 'is_snake' is still True after checking all digits, increment 'snake_count' by 1. After the loop, print the value of 'snake_count' as the result. Ensure that the solution handles large ranges efficiently, considering the constraints of L and R up to \(10^{18}\).
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

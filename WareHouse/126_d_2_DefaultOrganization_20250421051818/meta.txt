@@ -1,0 +1,33 @@
+Task:
+Input reception and initialization: Receive an integer N (number of vertices) and the following N-1 edge information (u_i, v_i, w_i) from standard input, and construct an adjacency list graph as an undirected graph. Record the 'destination' and 'weight (distance)' for each edge. Preparation for color management: Initialize the array color (length N) that records the color of each vertex to -1. This means that it is in the 'not yet colored' state. Also, prepare a visit queue or stack for DFS or BFS, and start the search by coloring the root (e.g. vertex 0) white (0). Tree search and coloring (DFS or BFS): While searching, determine the color of the next vertex according to the evenness or oddness of the edge weight w. If w is even → the adjacent vertices have the same color. If w is odd → the adjacent vertices have the opposite color. Assign colors to unvisited vertices according to this rule. Outputting the results: Once painting is complete, print the color (0 or 1) of each vertex, one line at a time, across N lines, in ascending order of vertex number.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+dashboard
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

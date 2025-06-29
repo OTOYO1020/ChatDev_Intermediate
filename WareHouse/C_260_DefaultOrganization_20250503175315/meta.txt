@@ -1,0 +1,33 @@
+Task:
+Read the integer N (level of the red jewel) from standard input. Read the integers X (number of blue jewels obtained from converting a red jewel) and Y (number of blue jewels obtained from converting a blue jewel) from standard input. Initialize a variable 'total_blue_jewels' to 0 to keep track of the total number of blue jewels of level 1. Create a loop to process jewels starting from level N down to level 1:\n   - For each level n (from N down to 2):\n     - Convert the red jewel of level n into a red jewel of level (n-1) and X blue jewels of level n.\n     - Update 'total_blue_jewels' by adding X.\n     - Convert each blue jewel of level n into a red jewel of level (n-1) and Y blue jewels of level (n-1).\n     - Update 'total_blue_jewels' by adding Y times the number of blue jewels of level n. After processing all levels, the total number of blue jewels of level 1 is stored in 'total_blue_jewels'. Print the value of 'total_blue_jewels' as the final output.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

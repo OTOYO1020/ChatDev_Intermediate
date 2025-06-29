@@ -1,0 +1,33 @@
+Task:
+Read the integer N from standard input, representing the number of cities. Initialize a list 'cities' to store the coordinates of each city. For each city from 1 to N, read the coordinates (X_i, Y_i, Z_i) and append them to the 'cities' list. Define a function 'travel_cost(city_a, city_b)' that calculates the cost of traveling between two cities using the formula: '|X_b - X_a| + |Y_b - Y_a| + max(0, Z_b - Z_a)'. Implement a function 'tsp(current_city, visited_mask)' that uses a recursive approach to explore all possible routes, keeping track of the total cost and the cities visited. Use memoization to store results of previously computed states in 'memo' to optimize the recursive function. In 'tsp', if all cities have been visited, return the cost to travel back to City 1. For each unvisited city, calculate the cost to visit it and recursively call 'tsp' for the next city. Call 'tsp(0, 1)' to start the traversal from City 1 with only City 1 visited. Print the minimum total cost obtained from the traversal.\n\nThis breakdown outlines the necessary steps to implement the solution for the problem, including the handling of input and output formats.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ <Python> *
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

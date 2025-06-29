@@ -1,0 +1,33 @@
+Task:
+Read integers N and Q from standard input, representing the number of vertices and the number of queries. Initialize an adjacency list 'graph' to store the connections between vertices. Loop through the Q queries:\n   - For each query, read the type and associated parameters.\n   - If the query type is '1 u v', call 'add_edge(graph, u, v)' to add an edge between vertices u and v.\n   - If the query type is '2 v k', call 'find_kth_largest(graph, v, k)' to find the k-th largest vertex connected to vertex v. In 'add_edge(graph, u, v)', update the adjacency list to reflect the new edge. In 'find_kth_largest(graph, v, k)', retrieve the list of vertices connected to v, sort them in descending order, and check if there are at least k vertices.\n   - If there are at least k vertices, return the k-th largest; otherwise, return -1. Print the results for all Type 2 queries. Ensure that the graph is undirected by adding edges in both directions (u to v and v to u). Handle input validation to ensure that u and v are within the valid range (1 to N). Optimize the adjacency list to allow for efficient retrieval and sorting of connected vertices. Output the results of Type 2 queries in the order they were received.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+  Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+

@@ -1,0 +1,3 @@
+
+Alternatively, if you prefer a more minimal approach, you can leave it completely empty:
+

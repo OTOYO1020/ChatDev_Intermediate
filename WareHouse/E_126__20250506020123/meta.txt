@@ -1,0 +1,33 @@
+Task:
+Read integers N and M from standard input, representing the number of cards and the number of constraints, respectively. Initialize an array 'A' of size N to store the values on the cards, initially set to 'None'. Read M pairs of integers (X_i, Y_i) and Z_i from standard input, storing them in a list of tuples 'constraints'. For each constraint (X_i, Y_i, Z_i) in 'constraints', determine the parity of the sum A[X_i] + A[Y_i] + Z_i:\n   - If A[X_i] is known, deduce A[Y_i] based on the parity condition.\n   - If A[Y_i] is known, deduce A[X_i] based on the parity condition. Use a loop to repeatedly apply the deductions until no further deductions can be made (i.e., until no new values are inferred). Count the number of unknown cards in array 'A' that still need to be revealed. For each unknown card, simulate using the magic to reveal its value, incrementing the cost for each use. Output the total cost required to determine all values in array 'A'.
+
+Config:
+ChatEnvConfig.with_memory: False
+ChatEnvConfig.clear_structure: True
+ChatEnvConfig.git_management: False
+ChatEnvConfig.gui_design: True
+ChatEnvConfig.incremental_develop: False
+ChatEnvConfig.background_prompt: ChatDev is a software company powered by multiple intelligent agents, such as chief executive officer, chief human resources officer, chief product officer, chief technology officer, etc, with a multi-agent organizational structure and the mission of 'changing the digital world through programming'.
+
+
+Roster:
+Chief Executive Officer, Counselor, Chief Human Resource Officer, Chief Product Officer, Chief Technology Officer, Programmer, Programmer_1, Programmer_2, Programmer_3, Code Reviewer, Software Test Engineer, Chief Creative Officer
+
+Modality:
+application
+
+Ideas:
+
+
+Language:
+ Python
+
+Code_Version:
+34.0
+
+Proposed_images:
+0
+
+Incorporated_images:
+0
+
