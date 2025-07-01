@@ -1,0 +1,23 @@
+--- subtask5/main.py
++++ subtask6/main.py
+@@ -1,7 +1,10 @@
+-'''
++"""
+ Main application file for the String Modifier.
+-'''
++"""
++
+ from string_modifier import replace_characters
++
++
+ def main():
+     # Read integer values N and Q from standard input
+     N, Q = map(int, input().split())
+@@ -17,5 +20,7 @@
+     modified_string = replace_characters(S, pairs)
+     # Print the modified string S as the output
+     print(modified_string)
++
++
+ if __name__ == "__main__":
+-    main()+    main()

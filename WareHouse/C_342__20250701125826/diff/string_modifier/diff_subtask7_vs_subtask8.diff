@@ -1,0 +1,15 @@
+--- subtask7/string_modifier.py
++++ subtask8/string_modifier.py
+@@ -10,10 +10,10 @@
+     Returns:
+     str: The modified string after replacements.
+     '''
+-    # Create a mapping of replacements
++    # Create a mapping for replacements
+     replacement_map = {}
+     for c_i, d_i in pairs:
+         replacement_map[c_i] = d_i
+-    # Create a new string with replacements
++    # Create a new string based on the mapping
+     modified_string = ''.join(replacement_map.get(char, char) for char in original_string)
+     return modified_string

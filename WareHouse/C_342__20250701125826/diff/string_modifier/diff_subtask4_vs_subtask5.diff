@@ -1,0 +1,24 @@
+--- subtask4/string_modifier.py
++++ subtask5/string_modifier.py
+@@ -12,16 +12,10 @@
+     Returns:
+     str: The modified string after replacements.
+     """
+-    # Create a mapping for replacements
+-    replacement_map = {c_i: d_i for c_i, d_i in pairs}
+-    # Create a new string with the replacements
+     modified_string = original_string
+-    # Continue replacing until no changes are made
+-    while True:
+-        new_string = "".join(
+-            replacement_map.get(char, char) for char in modified_string
+-        )
+-        if new_string == modified_string:  # No changes made
+-            break
+-        modified_string = new_string
++    # Create a temporary mapping to avoid cascading replacements
++    temp_mapping = {c_i: d_i for c_i, d_i in pairs}
++    # Replace characters based on the temporary mapping
++    for c_i, d_i in temp_mapping.items():
++        modified_string = modified_string.replace(c_i, d_i)
+     return modified_string

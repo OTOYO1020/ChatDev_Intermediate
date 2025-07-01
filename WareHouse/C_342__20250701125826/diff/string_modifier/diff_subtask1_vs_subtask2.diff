@@ -1,0 +1,16 @@
+--- subtask1/string_modifier.py
++++ subtask2/string_modifier.py
+@@ -12,9 +12,8 @@
+     Returns:
+     str: The modified string after replacements.
+     """
+-    modified_string = original_string  # Start with the original string
+-    for c, d in pairs:
+-        modified_string = modified_string.replace(
+-            c.strip(), d.strip()
+-        )  # Use a temporary modified string
++    translation_table = str.maketrans({c_i: d_i for c_i, d_i in pairs})
++    modified_string = original_string.translate(
++        translation_table
++    )  # Use translation table for replacements
+     return modified_string
