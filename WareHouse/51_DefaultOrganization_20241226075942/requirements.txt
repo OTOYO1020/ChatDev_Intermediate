@@ -1,3 +1,0 @@
-
-If you are using Gradle, you can specify the dependencies in the build.gradle file. Here's an example of how you can add dependencies for the provided Java project:
-

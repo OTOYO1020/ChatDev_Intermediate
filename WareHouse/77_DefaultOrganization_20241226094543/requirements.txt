@@ -1,3 +1,0 @@
-
-If you are using Gradle as the build tool, you can create a build.gradle file in the project root directory and add the required dependencies as `implementation` or `compile` statements within the `dependencies` block. Here's an example:
-

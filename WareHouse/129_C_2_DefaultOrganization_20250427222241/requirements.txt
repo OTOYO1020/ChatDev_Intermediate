@@ -1,3 +1,0 @@
-
-If you want to keep it open for future scalability, you can include placeholders for potential dependencies, but as of now, it is best to indicate that there are no requirements. Here’s the final version:
-

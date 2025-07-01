@@ -1,3 +1,0 @@
-
-If you want to prepare for future development or testing, you can also include common libraries that might be useful later. Here’s an example of how that could look:
-

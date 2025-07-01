@@ -1,3 +1,0 @@
-
-This format allows for easy updates in the future if the project evolves and requires additional libraries. If you prefer a completely empty file, you can simply leave it as follows:
-

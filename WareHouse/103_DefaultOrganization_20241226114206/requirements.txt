@@ -1,5 +1,0 @@
-
-In this example, I've added the same dependencies as in the Maven example. You can customize the dependencies according to your project requirements.
-
-To build and manage the project dependencies using Gradle, you can run the following command in the project directory:
-

@@ -1,3 +1,0 @@
-
-Alternatively, if you prefer to explicitly mention `tkinter`, it can be included as follows:
-

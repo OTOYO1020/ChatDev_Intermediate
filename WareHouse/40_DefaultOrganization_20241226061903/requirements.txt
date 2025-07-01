@@ -1,3 +1,0 @@
-
-If you are using Gradle as your build tool, you can specify the dependencies in the build.gradle file as follows:
-

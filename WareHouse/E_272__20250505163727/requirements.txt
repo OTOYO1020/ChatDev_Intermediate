@@ -1,3 +1,0 @@
-
-Alternatively, if you prefer to keep it completely empty, you can simply have:
-

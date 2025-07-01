@@ -1,3 +1,0 @@
-
-Alternatively, if you want to keep it open for future additions, you can use the following structure:
-

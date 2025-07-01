@@ -1,1 +1,0 @@
-# This is not a valid Java code, it should be removed

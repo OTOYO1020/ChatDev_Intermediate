@@ -1,3 +1,0 @@
-
-This clearly communicates that the project can run without any additional packages. If you prefer a more formal structure, you can also leave it completely empty, which would look like this:
-

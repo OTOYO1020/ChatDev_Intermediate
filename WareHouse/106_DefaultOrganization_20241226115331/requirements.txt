@@ -1,5 +1,0 @@
-
-In this example, the dependencies for Spring Boot and Thymeleaf are specified. You can modify the version numbers according to your project's requirements.
-
-To build and run the project using Maven, you can use the following commands:
-

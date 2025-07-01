@@ -1,5 +1,0 @@
-
-In this example, the pom.xml file is configured for a Maven project with the artifactId "fast-shooter-game" and version "1.0.0". The project uses Java 8 as the source and target compatibility.
-
-To specify the required dependencies, you can add them within the `<dependencies>` section. Here are some common dependencies that you might need for a fast-paced, first-person shooter game:
-

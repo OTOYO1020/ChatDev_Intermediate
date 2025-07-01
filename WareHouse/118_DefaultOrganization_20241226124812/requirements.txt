@@ -1,3 +1,0 @@
-
-In the `<dependencies>` section, you can add the required dependencies for your project. For example, if your project requires a library like Apache Commons Math, you can add the following dependency:
-

@@ -1,0 +1,14 @@
+--- subtask3/input_handler.py
++++ subtask4/input_handler.py
+@@ -7,6 +7,9 @@
+     def get_operations(self, num_operations, input_lines):
+         operations = []
+         for i in range(num_operations):
+-            c_i, d_i = input_lines[i].split()
+-            operations.append((c_i.strip(), d_i.strip()))
++            try:
++                c_i, d_i = input_lines[i].split()
++                operations.append((c_i.strip(), d_i.strip()))
++            except ValueError:
++                raise ValueError(f"Input line {i+1} is not in the correct format. Expected two characters.")
+         return operations

@@ -1,3 +1,0 @@
-
-If you decide to add any external libraries in the future, you can follow the format below to specify them:
-

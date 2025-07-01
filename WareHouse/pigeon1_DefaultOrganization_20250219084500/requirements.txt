@@ -1,3 +1,0 @@
-
-If you anticipate needing libraries for testing or additional functionality in the future, you might consider adding common libraries like `pytest` for testing purposes. Here’s an example of how that would look:
-

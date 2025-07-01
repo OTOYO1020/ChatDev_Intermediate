@@ -1,3 +1,0 @@
-
-If you want to keep the file ready for potential future enhancements or the inclusion of external libraries, you can use the following format:
-

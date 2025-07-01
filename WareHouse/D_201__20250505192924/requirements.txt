@@ -1,3 +1,0 @@
-
-For now, the final version of the `requirements.txt` file is as follows:
-

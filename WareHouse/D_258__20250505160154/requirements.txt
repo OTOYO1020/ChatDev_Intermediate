@@ -1,3 +1,0 @@
-
-If you want to prepare for potential future enhancements or the inclusion of libraries, you can also use the following version, which includes comments for commonly used libraries:
-

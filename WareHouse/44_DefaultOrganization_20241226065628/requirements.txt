@@ -1,5 +1,0 @@
-
-In this example, we have added a dependency for the `javax.swing` package, which is required for the graphical user interface (GUI) components used in the application. You can add other dependencies as needed for your project.
-
-To build and manage the project dependencies using Maven, you would run the following command in the project directory:
-

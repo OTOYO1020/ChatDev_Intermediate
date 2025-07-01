@@ -1,3 +1,0 @@
-
-If you prefer to keep it minimal and only want to indicate that there are no external dependencies required for this specific project, you can use the following:
-

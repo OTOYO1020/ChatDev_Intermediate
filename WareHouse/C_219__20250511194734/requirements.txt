@@ -1,3 +1,0 @@
-
-If you want to keep it open for future enhancements where you might consider adding libraries, you can use the following format:
-

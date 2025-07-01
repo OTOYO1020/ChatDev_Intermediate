@@ -1,1 +1,0 @@
-Read the integer X from standard input. Initialize a variable 'total_sum' to 0. Loop through each row index 'i' from 1 to 9:\n   - Loop through each column index 'j' from 1 to 9:\n     - Calculate the product 'value = i * j'.\n     - If 'value' is not equal to X, add 'value' to 'total_sum'. After completing the loops, print the value of 'total_sum'.

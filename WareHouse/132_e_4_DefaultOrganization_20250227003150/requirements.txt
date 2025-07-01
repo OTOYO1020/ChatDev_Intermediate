@@ -1,3 +1,0 @@
-
-This comment clearly communicates that the project does not rely on any third-party libraries, making it clear for anyone who reviews the file in the future. If any external libraries are added later, they can be included in the standard format:
-

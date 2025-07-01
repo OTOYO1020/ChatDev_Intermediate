@@ -1,6 +1,0 @@
-
-In this example, I've added two dependencies: `javax.swing-api` and `commons-lang3`. You can add more dependencies based on the libraries or frameworks you're using in your project.
-
-If you're using Gradle, you can create a build.gradle file in the root directory of your project and specify the dependencies there. Here's an example:
-
-build.gradle

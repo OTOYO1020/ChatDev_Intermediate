@@ -1,3 +1,0 @@
-
-In the `<dependencies>` section, you can add the required dependencies for your BudgetAdvisor project. For example, if you need to use a library like Apache Commons Math, you can add the following dependency:
-

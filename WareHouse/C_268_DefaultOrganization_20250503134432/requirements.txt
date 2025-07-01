@@ -1,3 +1,0 @@
-
-This format allows for easy updates in the future if the project expands and requires additional libraries. If you prefer to keep it completely empty, you can simply have:
-

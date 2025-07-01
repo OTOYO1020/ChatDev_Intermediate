@@ -1,3 +1,0 @@
-
-This `requirements.txt` file serves as a documentation placeholder, indicating that there are no external dependencies at this time, while also allowing for future expansion if necessary. If you prefer to keep it completely empty, you can simply create a file with no content:
-

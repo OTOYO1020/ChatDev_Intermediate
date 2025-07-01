@@ -1,0 +1,13 @@
+--- subtask2/main.py
++++ subtask3/main.py
+@@ -1,8 +1,8 @@
+ '''
+ Main entry point for the character replacement application.
+ '''
+-from input_handler import InputHandler
+-from output_display import OutputDisplay
++from input_handler import InputHandler  # Importing InputHandler class
++from output_display import OutputDisplay  # Importing OutputDisplay class
+ def main():
+     input_handler = InputHandler()
+     output_display = OutputDisplay()

@@ -1,3 +1,0 @@
-
-For example, if you later decide to use `numpy`, you could add:
-

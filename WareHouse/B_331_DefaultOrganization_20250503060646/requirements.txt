@@ -1,3 +1,0 @@
-
-If you want to keep the option open for future enhancements or the addition of libraries, you can also structure it like this:
-

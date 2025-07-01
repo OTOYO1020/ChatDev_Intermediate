@@ -1,3 +1,0 @@
-
-This `requirements.txt` file serves as a clear indication of the Python version needed to run the project, while also noting that the project relies solely on standard Python libraries. If in the future you decide to incorporate any third-party libraries, you can easily add them to this file in the format:
-

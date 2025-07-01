@@ -1,3 +1,0 @@
-
-If you want to include some commonly used libraries that might be useful for similar projects, you can use the following example:
-

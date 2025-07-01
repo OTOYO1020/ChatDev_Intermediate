@@ -1,3 +1,0 @@
-
-If you want to keep it flexible for potential future expansions or common libraries that might be useful, you could include a note about that as well. Here’s an alternative version:
-

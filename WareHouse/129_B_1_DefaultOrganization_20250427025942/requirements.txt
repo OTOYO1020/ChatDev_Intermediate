@@ -1,3 +1,0 @@
-
-This clearly communicates that the application is self-contained and does not rely on any third-party packages. If you would like to keep it even simpler, you could also use:
-

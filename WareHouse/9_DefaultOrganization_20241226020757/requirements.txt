@@ -1,6 +1,0 @@
-# Arcane Arena Game Dependencies
-
-# Java Swing for GUI
-javax.swing:javax.swing:1.0.0
-
-# Add other dependencies here if needed

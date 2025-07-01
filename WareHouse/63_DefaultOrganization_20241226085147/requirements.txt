@@ -1,5 +1,0 @@
-
-In this example, I've included the Apache Commons Lang library as a dependency. You can add other dependencies that your CashFlowManager application requires within the `<dependencies>` section.
-
-If you are using Gradle as your build tool, you can create a build.gradle file to specify the dependencies. Here's an example of how the build.gradle file could look like:
-

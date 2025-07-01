@@ -1,3 +1,0 @@
-
-This file indicates that the project does not rely on any external libraries and specifies the minimum Python version required to run the code. If you decide to incorporate any libraries in the future, you can easily add them to this file in the format:
-

@@ -1,0 +1,15 @@
+--- subtask1/input_handler.py
++++ subtask2/input_handler.py
+@@ -4,9 +4,9 @@
+ class InputHandler:
+     def get_string(self, input_string):
+         return input_string.strip()
+-    def get_operations(self, num_operations):
++    def get_operations(self, num_operations, input_lines):
+         operations = []
+-        for _ in range(num_operations):
+-            c_i, d_i = input().split()
++        for i in range(num_operations):
++            c_i, d_i = input_lines[i].split()
+             operations.append((c_i.strip(), d_i.strip()))
+         return operations

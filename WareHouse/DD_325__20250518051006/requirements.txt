@@ -1,3 +1,0 @@
-
-This file serves as a placeholder, indicating that there are no external dependencies at this time. If you decide to include any libraries in the future, you can simply add them below the comment. For example:
-

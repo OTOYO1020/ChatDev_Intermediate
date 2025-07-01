@@ -35,7 +35,8 @@ except ImportError:
     print(
         "Warning: Your OpenAI version is outdated. \n "
         "Please update as specified in requirement.txt. \n "
-        "The old API interface is deprecated and will no longer be supported.")
+        "The old API interface is deprecated and will no longer be supported."
+    )
 
 
 def get_config(company):
@@ -51,11 +52,7 @@ def get_config(company):
     config_dir = os.path.join(root, "CompanyConfig", company)
     default_config_dir = os.path.join(root, "CompanyConfig", "Default")
 
-    config_files = [
-        "ChatChainConfig.json",
-        "PhaseConfig.json",
-        "RoleConfig.json"
-    ]
+    config_files = ["ChatChainConfig.json", "PhaseConfig.json", "RoleConfig.json"]
 
     config_paths = []
 
@@ -71,39 +68,73 @@ def get_config(company):
     return tuple(config_paths)
 
 
-parser = argparse.ArgumentParser(description='argparse')
-parser.add_argument('--config', type=str, default="Agile",
-                    help="Name of config, which is used to load configuration under CompanyConfig/")
-parser.add_argument('--org', type=str, default="",
-                    help="Name of organization, your software will be generated in WareHouse/name_org_timestamp")
-parser.add_argument('--task', type=str, default="Develop a basic Gomoku game.",
-                    help="Prompt of software")
-parser.add_argument('--name', type=str, default="Gomoku",
-                    help="Name of software, your software will be generated in WareHouse/name_org_timestamp")
-parser.add_argument('--model', type=str, default="GPT_4O_MINI",
-                    help="GPT Model, choose from {'GPT_3_5_TURBO', 'GPT_4', 'GPT_4_TURBO', 'GPT_4O', 'GPT_4O_MINI'}")
-parser.add_argument('--path', type=str, default="",
-                    help="Your file directory, ChatDev will build upon your software in the Incremental mode")
-parser.add_argument('--subtask1', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask2', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask3', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask4', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask5', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask6', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask7', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask8', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask9', type=str, default="",
-                    help="Prompt of software's one function.")
-parser.add_argument('--subtask10', type=str, default="",
-                    help="Prompt of software's one function.")
+parser = argparse.ArgumentParser(description="argparse")
+parser.add_argument(
+    "--config",
+    type=str,
+    default="Agile",
+    help="Name of config, which is used to load configuration under CompanyConfig/",
+)
+parser.add_argument(
+    "--org",
+    type=str,
+    default="",
+    help="Name of organization, your software will be generated in WareHouse/name_org_timestamp",
+)
+parser.add_argument(
+    "--task",
+    type=str,
+    default="Develop a basic Gomoku game.",
+    help="Prompt of software",
+)
+parser.add_argument(
+    "--name",
+    type=str,
+    default="Gomoku",
+    help="Name of software, your software will be generated in WareHouse/name_org_timestamp",
+)
+parser.add_argument(
+    "--model",
+    type=str,
+    default="GPT_4O_MINI",
+    help="GPT Model, choose from {'GPT_3_5_TURBO', 'GPT_4', 'GPT_4_TURBO', 'GPT_4O', 'GPT_4O_MINI'}",
+)
+parser.add_argument(
+    "--path",
+    type=str,
+    default="",
+    help="Your file directory, ChatDev will build upon your software in the Incremental mode",
+)
+parser.add_argument(
+    "--subtask1", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask2", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask3", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask4", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask5", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask6", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask7", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask8", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask9", type=str, default="", help="Prompt of software's one function."
+)
+parser.add_argument(
+    "--subtask10", type=str, default="", help="Prompt of software's one function."
+)
 args = parser.parse_args()
 
 # Start ChatDev
@@ -112,42 +143,49 @@ args = parser.parse_args()
 #          Init ChatChain
 # ----------------------------------------
 config_path, config_phase_path, config_role_path = get_config(args.config)
-args2type = {'GPT_3_5_TURBO': ModelType.GPT_3_5_TURBO,
-             'GPT_4': ModelType.GPT_4,
-            #  'GPT_4_32K': ModelType.GPT_4_32k,
-             'GPT_4_TURBO': ModelType.GPT_4_TURBO,
-            #  'GPT_4_TURBO_V': ModelType.GPT_4_TURBO_V
-            'GPT_4O': ModelType.GPT_4O,
-            'GPT_4O_MINI': ModelType.GPT_4O_MINI,
-             }
+args2type = {
+    "GPT_3_5_TURBO": ModelType.GPT_3_5_TURBO,
+    "GPT_4": ModelType.GPT_4,
+    #  'GPT_4_32K': ModelType.GPT_4_32k,
+    "GPT_4_TURBO": ModelType.GPT_4_TURBO,
+    #  'GPT_4_TURBO_V': ModelType.GPT_4_TURBO_V
+    "GPT_4O": ModelType.GPT_4O,
+    "GPT_4O_MINI": ModelType.GPT_4O_MINI,
+}
 if openai_new_api:
-    args2type['GPT_3_5_TURBO'] = ModelType.GPT_3_5_TURBO_NEW
+    args2type["GPT_3_5_TURBO"] = ModelType.GPT_3_5_TURBO_NEW
 
-chat_chain = ChatChain(config_path=config_path,
-                       config_phase_path=config_phase_path,
-                       config_role_path=config_role_path,
-                       task_prompt=args.task,
-                       subtask1=args.subtask1,
-                       subtask2=args.subtask2,
-                       subtask3=args.subtask3,
-                       subtask4=args.subtask4,
-                       subtask5=args.subtask5,
-                       subtask6=args.subtask6,
-                       subtask7=args.subtask7,
-                       subtask8=args.subtask8,
-                       subtask9=args.subtask9,
-                       subtask10=args.subtask10,
-                       project_name=args.name,
-                       org_name=args.org,
-                       model_type=args2type[args.model],
-                       code_path=args.path)
+chat_chain = ChatChain(
+    config_path=config_path,
+    config_phase_path=config_phase_path,
+    config_role_path=config_role_path,
+    task_prompt=args.task,
+    subtask1=args.subtask1,
+    subtask2=args.subtask2,
+    subtask3=args.subtask3,
+    subtask4=args.subtask4,
+    subtask5=args.subtask5,
+    subtask6=args.subtask6,
+    subtask7=args.subtask7,
+    subtask8=args.subtask8,
+    subtask9=args.subtask9,
+    subtask10=args.subtask10,
+    project_name=args.name,
+    org_name=args.org,
+    model_type=args2type[args.model],
+    code_path=args.path,
+)
 
 # ----------------------------------------
 #          Init Log
 # ----------------------------------------
-logging.basicConfig(filename=chat_chain.log_filepath, level=logging.INFO,
-                    format='[%(asctime)s %(levelname)s] %(message)s',
-                    datefmt='%Y-%d-%m %H:%M:%S', encoding="utf-8")
+logging.basicConfig(
+    filename=chat_chain.log_filepath,
+    level=logging.INFO,
+    format="[%(asctime)s %(levelname)s] %(message)s",
+    datefmt="%Y-%d-%m %H:%M:%S",
+    encoding="utf-8",
+)
 
 # ----------------------------------------
 #          Pre Processing

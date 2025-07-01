@@ -1,5 +1,0 @@
-
-This file clearly indicates that there are no current dependencies required for the project to run properly. If in the future you decide to incorporate any libraries, you can easily update this file to include them. 
-
-If you want to keep it open for potential future use of common libraries, you could also include a commented section like this:
-

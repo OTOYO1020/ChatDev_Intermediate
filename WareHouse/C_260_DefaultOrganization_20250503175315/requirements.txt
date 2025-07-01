@@ -1,3 +1,0 @@
-
-Alternatively, if you want to prepare for potential future enhancements where you might consider using libraries like `numpy` or `pandas`, you can include them as placeholders:
-

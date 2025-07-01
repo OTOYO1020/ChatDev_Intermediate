@@ -1,3 +1,0 @@
-
-This file indicates that while there are no immediate external dependencies, the listed libraries could be useful for future enhancements of the project. If you prefer to keep it completely empty, you can use the following:
-

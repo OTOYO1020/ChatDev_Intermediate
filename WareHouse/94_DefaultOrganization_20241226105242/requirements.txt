@@ -1,8 +1,0 @@
-
-In this example, I've added two dependencies: `javax.swing-api` for the GUI components and `commons-email` for sending emails. You can add more dependencies based on the specific requirements of your project.
-
-Remember to update the `groupId`, `artifactId`, and `version` according to your project's details.
-
-If you are using Gradle as the build tool, you can specify the dependencies in the build.gradle file. Here's an example:
-
-build.gradle

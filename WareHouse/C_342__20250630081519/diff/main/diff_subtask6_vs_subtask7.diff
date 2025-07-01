@@ -1,0 +1,15 @@
+--- subtask6/main.py
++++ subtask7/main.py
+@@ -32,6 +32,12 @@
+     # Replace all occurrences of characters in S based on the operations
+     for c_i, d_i in operations:
+         S = S.replace(c_i, d_i)  # Apply each replacement in order
++    # Check for unchanged characters
++    unique_chars = set(S)
++    operation_chars = {c_i for c_i, d_i in operations}
++    unchanged_chars = unique_chars - operation_chars
++    if unchanged_chars:
++        print(f"Warning: The following characters were not replaced: {', '.join(unchanged_chars)}")
+     # Print the modified string S as the output
+     output_display.show_output(S)
+ if __name__ == "__main__":

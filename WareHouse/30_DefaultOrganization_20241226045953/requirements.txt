@@ -1,5 +1,0 @@
-
-This pom.xml file specifies the dependency for the `javax.swing` package, which is required for the graphical user interface (GUI) components used in the game. You can add any other dependencies required for the project within the `<dependencies>` section.
-
-To build and run the project using Maven, you can use the following commands:
-

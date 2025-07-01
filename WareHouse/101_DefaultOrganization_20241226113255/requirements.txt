@@ -1,3 +1,0 @@
-
-To specify the required dependencies, you need to add the `<dependencies>` section within the `<project>` tags. For example, if you need to include the Apache POI library for Excel file processing, you can add the following dependency:
-

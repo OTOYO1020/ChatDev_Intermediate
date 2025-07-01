@@ -1,5 +1,0 @@
-
-If you want to keep it even simpler, you can leave it completely empty, but including comments as shown above can be helpful for anyone who might work on the project in the future. 
-
-If you anticipate using libraries in the future (for example, for testing or enhancements), you could also include placeholders for those libraries:
-

@@ -1,5 +1,0 @@
-
-In this example, I have added two dependencies: `javax.swing` and `org.apache.commons.lang3`. You can add more dependencies as needed for your project.
-
-To build and manage the project dependencies using Maven, you can run the following command in the project directory:
-

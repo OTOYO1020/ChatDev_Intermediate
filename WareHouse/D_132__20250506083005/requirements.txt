@@ -1,3 +1,0 @@
-
-If you anticipate future expansions that may require additional libraries, you can use the following format as a placeholder:
-

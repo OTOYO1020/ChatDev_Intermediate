@@ -1,3 +1,0 @@
-
-If you want to keep the option open for future enhancements that might require external libraries, you could also include commented-out lines for commonly used libraries. Here’s an example:
-

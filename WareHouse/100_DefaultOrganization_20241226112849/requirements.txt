@@ -1,5 +1,0 @@
-
-This pom.xml file includes the required dependency for Spring Boot web application (`spring-boot-starter-web`). You can add other dependencies as per your project requirements.
-
-If you are using Gradle as the build tool, you can create a build.gradle file in the root directory of your project and specify the required dependencies inside the `dependencies` block. Here's an example of how the build.gradle file might look like for the given project:
-

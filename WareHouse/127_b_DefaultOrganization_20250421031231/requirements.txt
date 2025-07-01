@@ -1,3 +1,0 @@
-
-If you anticipate that the project may require libraries in the future, you can also include placeholders for those libraries. Here’s an example of how that might look:
-

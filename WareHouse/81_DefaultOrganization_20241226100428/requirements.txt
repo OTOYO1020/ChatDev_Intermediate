@@ -1,5 +1,0 @@
-
-Replace `org.example` with the actual group and artifact IDs of the dependencies you need. You can add more dependencies by adding more `<dependency>` elements.
-
-For Gradle, you can create a build.gradle file in the root directory of your project and specify the required dependencies there. Here's an example:
-

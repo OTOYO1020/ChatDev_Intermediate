@@ -1,5 +1,0 @@
-
-In this example, we have added a dependency for the `javax.swing` package, which is used for creating the GUI.
-
-To build and manage the project dependencies, you can use Maven or Gradle. Maven is a popular choice for Java projects. You can install Maven and run the following command in the project directory to build the project and download the required dependencies:
-

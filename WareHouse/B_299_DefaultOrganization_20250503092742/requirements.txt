@@ -1,3 +1,0 @@
-
-This indicates that the project is self-contained and does not require any additional packages to run. If you want to leave room for future dependencies, you could also include a comment suggesting where to add them:
-

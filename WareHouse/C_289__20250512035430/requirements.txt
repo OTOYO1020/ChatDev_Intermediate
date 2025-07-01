@@ -1,3 +1,0 @@
-
-If you prefer to keep it minimal and only include essential libraries, you can leave it empty or simply state that no external dependencies are required:
-

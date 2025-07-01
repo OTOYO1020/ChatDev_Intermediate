@@ -1,3 +1,0 @@
-
-Alternatively, if you prefer a completely empty file, you can use:
-

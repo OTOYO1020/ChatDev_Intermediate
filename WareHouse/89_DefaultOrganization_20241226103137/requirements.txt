@@ -1,3 +1,0 @@
-
-For Gradle, you can add the required dependencies to the build.gradle file. Here's an example of how the dependencies section in the build.gradle file could look like for the ExpenseAnalyzer project:
-

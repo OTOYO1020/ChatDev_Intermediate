@@ -1,3 +1,0 @@
-
-If you anticipate that the project might require specific libraries in the future (for example, for data manipulation or advanced features), you can include common libraries like `numpy` or `pandas`. Here’s how it would look if you decide to include them:
-

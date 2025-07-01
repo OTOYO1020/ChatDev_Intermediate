@@ -1,2 +1,0 @@
-javax.swing:javax.swing-api:1.0.0
-org.apache.commons:commons-lang3:3.12.0

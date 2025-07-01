@@ -1,3 +1,0 @@
-
-In the `<dependencies>` section, you can add the dependencies required for your project. For example, if your project requires a library like Apache Commons IO, you can add the following dependency:
-

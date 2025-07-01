@@ -1,2 +1,0 @@
-
-3. Run the dependency plugin to generate the "requirements.txt" file:

@@ -1,5 +1,0 @@
-
-This indicates that there are no additional packages required for the current project. If you anticipate needing common libraries in the future, you might include some commonly used ones, but for the current implementation, it is not necessary. 
-
-If you want to keep it completely empty, you can simply leave it as:
-

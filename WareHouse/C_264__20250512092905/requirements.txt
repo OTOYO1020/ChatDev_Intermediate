@@ -1,3 +1,0 @@
-
-If you want to keep it open for future enhancements, you can also include common libraries that might be useful later:
-

@@ -1,3 +1,0 @@
-
-This file indicates that while there are no immediate dependencies, it also prepares the project for future enhancements that may require libraries like `numpy` or `pandas`. If you prefer to keep it completely empty due to the current lack of dependencies, you can simply use:
-

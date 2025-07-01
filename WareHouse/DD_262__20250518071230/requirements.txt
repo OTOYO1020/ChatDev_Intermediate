@@ -1,3 +1,0 @@
-
-Alternatively, if you want to include placeholders for potential future dependencies, you could use the following format:
-

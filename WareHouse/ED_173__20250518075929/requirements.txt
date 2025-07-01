@@ -1,3 +1,0 @@
-
-If you anticipate future enhancements that may require additional libraries, you can uncomment the lines for `numpy` and `pandas` as shown below:
-

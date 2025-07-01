@@ -1,5 +1,0 @@
-
-In this example, the project has a dependency on the `javax.swing` library, which is used for displaying the error message dialog.
-
-If you're using Gradle as the build tool, you can create a build.gradle file to specify the dependencies. Here's an example:
-
